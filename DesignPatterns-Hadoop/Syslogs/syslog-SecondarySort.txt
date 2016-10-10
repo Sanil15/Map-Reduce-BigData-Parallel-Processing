@@ -1,0 +1,58 @@
+16/10/09 20:45:54 INFO mapred.Merger: Down to the last merge-pass, with 2 segments left of total size: 1552820 bytes
+16/10/09 20:45:54 INFO mapred.Task: Task:attempt_local267932087_0001_m_000031_0 is done. And is in the process of commiting
+16/10/09 20:45:54 INFO mapred.LocalJobRunner: 
+16/10/09 20:45:54 INFO mapred.Task: Task 'attempt_local267932087_0001_m_000031_0' done.
+16/10/09 20:45:54 INFO mapred.LocalJobRunner: Finishing task: attempt_local267932087_0001_m_000031_0
+16/10/09 20:45:54 INFO mapred.LocalJobRunner: Starting task: attempt_local267932087_0001_m_000032_0
+16/10/09 20:45:54 INFO mapred.Task:  Using ResourceCalculatorPlugin : null
+16/10/09 20:45:54 INFO mapred.MapTask: Processing split: file:/Users/saniljain/Documents/HADOOP/Assignment-2/Part1Jars/1991.csv:1073741824+13589034
+16/10/09 20:45:54 INFO mapred.MapTask: io.sort.mb = 100
+16/10/09 20:45:54 INFO mapred.MapTask: data buffer = 79691776/99614720
+16/10/09 20:45:54 INFO mapred.MapTask: record buffer = 262144/327680
+16/10/09 20:45:54 INFO mapred.JobClient:  map 96% reduce 0%
+16/10/09 20:45:54 INFO mapred.MapTask: Starting flush of map output
+16/10/09 20:45:54 INFO mapred.MapTask: Finished spill 0
+16/10/09 20:45:54 INFO mapred.Task: Task:attempt_local267932087_0001_m_000032_0 is done. And is in the process of commiting
+16/10/09 20:45:54 INFO mapred.LocalJobRunner: 
+16/10/09 20:45:54 INFO mapred.Task: Task 'attempt_local267932087_0001_m_000032_0' done.
+16/10/09 20:45:54 INFO mapred.LocalJobRunner: Finishing task: attempt_local267932087_0001_m_000032_0
+16/10/09 20:45:54 INFO mapred.LocalJobRunner: Map task executor complete.
+16/10/09 20:45:54 INFO mapred.Task:  Using ResourceCalculatorPlugin : null
+16/10/09 20:45:54 INFO mapred.LocalJobRunner: 
+16/10/09 20:45:54 INFO mapred.Merger: Merging 33 sorted segments
+16/10/09 20:45:54 INFO mapred.Merger: Merging 6 intermediate segments out of a total of 33
+16/10/09 20:45:55 INFO mapred.Merger: Merging 10 intermediate segments out of a total of 28
+16/10/09 20:45:55 INFO mapred.Merger: Merging 10 intermediate segments out of a total of 19
+16/10/09 20:45:55 INFO mapred.Merger: Down to the last merge-pass, with 10 segments left of total size: 50432914 bytes
+16/10/09 20:45:55 INFO mapred.LocalJobRunner: 
+16/10/09 20:45:55 INFO mapred.JobClient:  map 100% reduce 0%
+16/10/09 20:45:56 INFO mapred.Task: Task:attempt_local267932087_0001_r_000000_0 is done. And is in the process of commiting
+16/10/09 20:45:56 INFO mapred.LocalJobRunner: 
+16/10/09 20:45:56 INFO mapred.Task: Task attempt_local267932087_0001_r_000000_0 is allowed to commit now
+16/10/09 20:45:56 INFO output.FileOutputCommitter: Saved output of task 'attempt_local267932087_0001_r_000000_0' to /Users/saniljain/Documents/workspace-hadoop/Combiner/src/main/java/pattern/output
+16/10/09 20:45:56 INFO mapred.LocalJobRunner: reduce > reduce
+16/10/09 20:45:56 INFO mapred.Task: Task 'attempt_local267932087_0001_r_000000_0' done.
+16/10/09 20:45:56 INFO mapred.JobClient:  map 100% reduce 100%
+16/10/09 20:45:56 INFO mapred.JobClient: Job complete: job_local267932087_0001
+16/10/09 20:45:56 INFO mapred.JobClient: Counters: 17
+16/10/09 20:45:56 INFO mapred.JobClient:   File Output Format Counters 
+16/10/09 20:45:56 INFO mapred.JobClient:     Bytes Written=714927
+16/10/09 20:45:56 INFO mapred.JobClient:   File Input Format Counters 
+16/10/09 20:45:56 INFO mapred.JobClient:     Bytes Read=1087461930
+16/10/09 20:45:56 INFO mapred.JobClient:   FileSystemCounters
+16/10/09 20:45:56 INFO mapred.JobClient:     FILE_BYTES_READ=20895440850
+16/10/09 20:45:56 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=1864476357
+16/10/09 20:45:56 INFO mapred.JobClient:   Map-Reduce Framework
+16/10/09 20:45:56 INFO mapred.JobClient:     Reduce input groups=14135
+16/10/09 20:45:56 INFO mapred.JobClient:     Map output materialized bytes=50433092
+16/10/09 20:45:56 INFO mapred.JobClient:     Combine output records=1172858
+16/10/09 20:45:56 INFO mapred.JobClient:     Map input records=30865324
+16/10/09 20:45:56 INFO mapred.JobClient:     Reduce shuffle bytes=0
+16/10/09 20:45:56 INFO mapred.JobClient:     Reduce output records=14135
+16/10/09 20:45:56 INFO mapred.JobClient:     Spilled Records=4398340
+16/10/09 20:45:56 INFO mapred.JobClient:     Map output bytes=360727881
+16/10/09 20:45:56 INFO mapred.JobClient:     Total committed heap usage (bytes)=40426799104
+16/10/09 20:45:56 INFO mapred.JobClient:     SPLIT_RAW_BYTES=4455
+16/10/09 20:45:56 INFO mapred.JobClient:     Map output records=8798241
+16/10/09 20:45:56 INFO mapred.JobClient:     Combine input records=8798241
+16/10/09 20:45:56 INFO mapred.JobClient:     Reduce input records=1172858
