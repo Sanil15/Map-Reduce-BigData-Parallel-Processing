@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0mPackaging /Users/saniljain/Downloads/multiread/target/scala-2.10/demo_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	main/SalaryMapper.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/saniljain/Downloads/multiread/target/scala-2.10/classes/main/SalaryMapper.class[0m
+[0m[[0mdebug[0m] [0m	main/BattingMapper.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/saniljain/Downloads/multiread/target/scala-2.10/classes/main/BattingMapper.class[0m
+[0m[[0mdebug[0m] [0m	main/Player.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/saniljain/Downloads/multiread/target/scala-2.10/classes/main/Player.class[0m
+[0m[[0mdebug[0m] [0m	main[0m
+[0m[[0mdebug[0m] [0m	  /Users/saniljain/Downloads/multiread/target/scala-2.10/classes/main[0m
+[0m[[0mdebug[0m] [0m	main/PlayerInfo.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/saniljain/Downloads/multiread/target/scala-2.10/classes/main/PlayerInfo.class[0m
+[0m[[0mdebug[0m] [0m	main/DemoReducer.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/saniljain/Downloads/multiread/target/scala-2.10/classes/main/DemoReducer.class[0m
+[0m[[0mdebug[0m] [0m	main/Demo.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/saniljain/Downloads/multiread/target/scala-2.10/classes/main/Demo.class[0m
+[0m[[0mdebug[0m] [0m	main/Demo$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/saniljain/Downloads/multiread/target/scala-2.10/classes/main/Demo$.class[0m
+[0m[[0mdebug[0m] [0m	main/NamesMapper.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/saniljain/Downloads/multiread/target/scala-2.10/classes/main/NamesMapper.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
