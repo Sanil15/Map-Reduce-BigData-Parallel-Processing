@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf110
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 AndaleMono;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\margl1440\margr1440\vieww25400\viewh16000\viewkind0
+\deftab720
+\pard\tx720\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Size of the input RDD.\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf2 	- Matrix-A :\
+	
+\f1\fs24 \cf0 \kerning1\expnd0\expndtw0 \CocoaLigature0 rowsA Count 4526
+\f0\fs28 \expnd0\expndtw0\kerning0
+\CocoaLigature1 	\kerning1\expnd0\expndtw0 \
+	
+\f1\fs24 \CocoaLigature0 dataA Count 4526\
+
+\f0\fs28 \CocoaLigature1 	- Matrix-B :\
+	
+\f1\fs24 \CocoaLigature0 rowsB Count 1000
+\f0\fs28 \CocoaLigature1 \
+	
+\f1\fs24 \CocoaLigature0 dataB Count 1000
+\f0\fs28 \CocoaLigature1 	\
+	\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\cf2 	\'95	Matrix Multiplication RDDs\cf0 \
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 	
+\f1\fs24 \CocoaLigature0 distA Count 4526000
+\f0\fs28 \CocoaLigature1 \
+	
+\f1\fs24 \CocoaLigature0 distB Count 1000000\
+	distC Count 4526\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+
+\f0\fs28 \cf2 \CocoaLigature1 	\'95	\expnd0\expndtw0\kerning0
+Size of the output RDD.
+\f1\fs24 \cf0 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\pard\tx720\pardeftab720\partightenfactor0
+\cf0 	cellC Count 4526\
+	
+\f0\fs28 \cf2 \CocoaLigature1 \
+\pard\tx720\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Asymptotic number of times the passed function is called in terms of either N (the size of one matrix dimension), |A|, or |B| (the number of non-zero values in the corresponding matrix).\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf2 \
+	Sol. Number of multiplication operations is equal to number of elements in the Matrix-B that is |B| i.e an identity matrix. Here the number of non zero elements in Identity matrix B is 1000 (all diagonal \
+         elements are 1, else others are 0 ) so 1000 operations for multiplication.	\
+	\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Asymptotic number of records that need to be communicated between partitions in parallel execution.\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf2 	\
+	Sol. Since every record just has one element in row of |A| and and one element from a column of |B| that contributes to final record in |C| and a join makes them end in the same partition. So number \
+         of records to be communicated is  equal to zero\
+}
