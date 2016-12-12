@@ -1,0 +1,580 @@
+2016-12-09 17:30:40 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-12-09 17:30:40 INFO  deprecation:1173 - session.id is deprecated. Instead, use dfs.metrics.session-id
+2016-12-09 17:30:40 INFO  JvmMetrics:76 - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-12-09 17:30:41 WARN  JobResourceUploader:171 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-12-09 17:30:41 INFO  FileInputFormat:283 - Total input paths to process : 1
+2016-12-09 17:30:41 INFO  JobSubmitter:198 - number of splits:13
+2016-12-09 17:30:41 INFO  JobSubmitter:287 - Submitting tokens for job: job_local1737395097_0001
+2016-12-09 17:30:41 INFO  Job:1294 - The url to track the job: http://localhost:8080/
+2016-12-09 17:30:41 INFO  Job:1339 - Running job: job_local1737395097_0001
+2016-12-09 17:30:41 INFO  LocalJobRunner:471 - OutputCommitter set in config null
+2016-12-09 17:30:41 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:30:41 INFO  LocalJobRunner:489 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2016-12-09 17:30:41 INFO  LocalJobRunner:448 - Waiting for map tasks
+2016-12-09 17:30:41 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000000_0
+2016-12-09 17:30:41 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:30:41 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:30:41 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:30:41 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:0+33554432
+2016-12-09 17:30:41 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:30:41 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:30:41 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:30:41 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:30:41 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:30:41 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:30:41 INFO  CodecPool:181 - Got brand-new decompressor [.bz2]
+2016-12-09 17:30:42 INFO  Job:1360 - Job job_local1737395097_0001 running in uber mode : false
+2016-12-09 17:30:42 INFO  Job:1367 -  map 0% reduce 0%
+2016-12-09 17:30:47 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:30:48 INFO  Job:1367 -  map 1% reduce 0%
+2016-12-09 17:30:50 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:30:53 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:30:54 INFO  Job:1367 -  map 2% reduce 0%
+2016-12-09 17:30:56 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:30:59 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:00 INFO  Job:1367 -  map 3% reduce 0%
+2016-12-09 17:31:02 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:05 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:06 INFO  Job:1367 -  map 4% reduce 0%
+2016-12-09 17:31:08 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:11 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:12 INFO  Job:1367 -  map 5% reduce 0%
+2016-12-09 17:31:13 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:13 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:31:13 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:31:13 INFO  MapTask:1483 - bufstart = 0; bufend = 29999827; bufvoid = 104857600
+2016-12-09 17:31:13 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25650592(102602368); length = 563805/6553600
+2016-12-09 17:31:14 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:31:14 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000000_0 is done. And is in the process of committing
+2016-12-09 17:31:14 INFO  LocalJobRunner:591 - map
+2016-12-09 17:31:14 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000000_0' done.
+2016-12-09 17:31:14 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000000_0
+2016-12-09 17:31:14 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000001_0
+2016-12-09 17:31:14 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:31:14 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:31:14 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:31:14 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:33554432+33554432
+2016-12-09 17:31:14 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:31:14 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:31:14 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:31:14 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:31:14 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:31:14 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:31:14 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:31:20 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:20 INFO  Job:1367 -  map 9% reduce 0%
+2016-12-09 17:31:23 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:26 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:26 INFO  Job:1367 -  map 10% reduce 0%
+2016-12-09 17:31:29 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:32 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:32 INFO  Job:1367 -  map 11% reduce 0%
+2016-12-09 17:31:35 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:38 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:38 INFO  Job:1367 -  map 12% reduce 0%
+2016-12-09 17:31:41 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:43 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:43 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:31:43 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:31:43 INFO  MapTask:1483 - bufstart = 0; bufend = 27666265; bufvoid = 104857600
+2016-12-09 17:31:43 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25654364(102617456); length = 560033/6553600
+2016-12-09 17:31:44 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:31:44 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000001_0 is done. And is in the process of committing
+2016-12-09 17:31:44 INFO  LocalJobRunner:591 - map
+2016-12-09 17:31:44 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000001_0' done.
+2016-12-09 17:31:44 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000001_0
+2016-12-09 17:31:44 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000002_0
+2016-12-09 17:31:44 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:31:44 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:31:44 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:31:44 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:67108864+33554432
+2016-12-09 17:31:44 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:31:44 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:31:44 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:31:44 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:31:44 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:31:44 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:31:44 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:31:50 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:50 INFO  Job:1367 -  map 16% reduce 0%
+2016-12-09 17:31:53 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:53 INFO  Job:1367 -  map 17% reduce 0%
+2016-12-09 17:31:56 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:59 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:31:59 INFO  Job:1367 -  map 18% reduce 0%
+2016-12-09 17:32:02 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:05 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:05 INFO  Job:1367 -  map 19% reduce 0%
+2016-12-09 17:32:08 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:11 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:11 INFO  Job:1367 -  map 20% reduce 0%
+2016-12-09 17:32:14 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:17 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:17 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:32:17 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:32:17 INFO  MapTask:1483 - bufstart = 0; bufend = 27771171; bufvoid = 104857600
+2016-12-09 17:32:17 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25658092(102632368); length = 556305/6553600
+2016-12-09 17:32:17 INFO  LocalJobRunner:591 - map > sort
+2016-12-09 17:32:17 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:32:17 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000002_0 is done. And is in the process of committing
+2016-12-09 17:32:17 INFO  LocalJobRunner:591 - map
+2016-12-09 17:32:17 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000002_0' done.
+2016-12-09 17:32:17 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000002_0
+2016-12-09 17:32:17 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000003_0
+2016-12-09 17:32:17 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:32:17 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:32:17 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:32:17 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:100663296+33554432
+2016-12-09 17:32:17 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:32:17 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:32:17 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:32:17 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:32:17 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:32:17 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:32:17 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:32:23 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:23 INFO  Job:1367 -  map 24% reduce 0%
+2016-12-09 17:32:26 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:29 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:29 INFO  Job:1367 -  map 25% reduce 0%
+2016-12-09 17:32:32 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:35 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:35 INFO  Job:1367 -  map 26% reduce 0%
+2016-12-09 17:32:38 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:41 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:41 INFO  Job:1367 -  map 27% reduce 0%
+2016-12-09 17:32:44 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:47 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:47 INFO  Job:1367 -  map 28% reduce 0%
+2016-12-09 17:32:50 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:51 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:51 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:32:51 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:32:51 INFO  MapTask:1483 - bufstart = 0; bufend = 26460029; bufvoid = 104857600
+2016-12-09 17:32:51 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25659016(102636064); length = 555381/6553600
+2016-12-09 17:32:52 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:32:52 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000003_0 is done. And is in the process of committing
+2016-12-09 17:32:52 INFO  LocalJobRunner:591 - map
+2016-12-09 17:32:52 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000003_0' done.
+2016-12-09 17:32:52 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000003_0
+2016-12-09 17:32:52 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000004_0
+2016-12-09 17:32:52 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:32:52 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:32:52 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:32:52 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:134217728+33554432
+2016-12-09 17:32:52 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:32:52 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:32:52 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:32:52 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:32:52 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:32:52 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:32:52 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:32:58 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:32:58 INFO  Job:1367 -  map 32% reduce 0%
+2016-12-09 17:33:01 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:04 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:04 INFO  Job:1367 -  map 33% reduce 0%
+2016-12-09 17:33:07 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:10 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:10 INFO  Job:1367 -  map 34% reduce 0%
+2016-12-09 17:33:13 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:16 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:16 INFO  Job:1367 -  map 35% reduce 0%
+2016-12-09 17:33:19 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:22 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:22 INFO  Job:1367 -  map 36% reduce 0%
+2016-12-09 17:33:23 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:23 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:33:23 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:33:23 INFO  MapTask:1483 - bufstart = 0; bufend = 28025801; bufvoid = 104857600
+2016-12-09 17:33:23 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25649388(102597552); length = 565009/6553600
+2016-12-09 17:33:23 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:33:23 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000004_0 is done. And is in the process of committing
+2016-12-09 17:33:23 INFO  LocalJobRunner:591 - map
+2016-12-09 17:33:23 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000004_0' done.
+2016-12-09 17:33:23 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000004_0
+2016-12-09 17:33:23 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000005_0
+2016-12-09 17:33:23 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:33:23 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:33:23 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:33:23 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:167772160+33554432
+2016-12-09 17:33:23 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:33:23 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:33:23 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:33:23 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:33:23 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:33:23 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:33:24 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:33:29 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:30 INFO  Job:1367 -  map 39% reduce 0%
+2016-12-09 17:33:32 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:33 INFO  Job:1367 -  map 40% reduce 0%
+2016-12-09 17:33:35 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:38 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:39 INFO  Job:1367 -  map 41% reduce 0%
+2016-12-09 17:33:41 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:44 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:45 INFO  Job:1367 -  map 42% reduce 0%
+2016-12-09 17:33:47 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:50 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:50 INFO  Job:1367 -  map 43% reduce 0%
+2016-12-09 17:33:53 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:55 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:33:55 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:33:55 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:33:55 INFO  MapTask:1483 - bufstart = 0; bufend = 28743325; bufvoid = 104857600
+2016-12-09 17:33:55 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25629352(102517408); length = 585045/6553600
+2016-12-09 17:33:55 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:33:55 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000005_0 is done. And is in the process of committing
+2016-12-09 17:33:55 INFO  LocalJobRunner:591 - map
+2016-12-09 17:33:55 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000005_0' done.
+2016-12-09 17:33:55 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000005_0
+2016-12-09 17:33:55 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000006_0
+2016-12-09 17:33:55 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:33:55 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:33:55 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:33:55 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:201326592+33554432
+2016-12-09 17:33:55 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:33:55 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:33:55 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:33:55 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:33:55 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:33:55 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:33:55 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:34:01 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:01 INFO  Job:1367 -  map 47% reduce 0%
+2016-12-09 17:34:04 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:04 INFO  Job:1367 -  map 48% reduce 0%
+2016-12-09 17:34:07 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:10 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:10 INFO  Job:1367 -  map 49% reduce 0%
+2016-12-09 17:34:13 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:16 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:16 INFO  Job:1367 -  map 50% reduce 0%
+2016-12-09 17:34:19 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:22 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:22 INFO  Job:1367 -  map 51% reduce 0%
+2016-12-09 17:34:25 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:26 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:26 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:34:26 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:34:26 INFO  MapTask:1483 - bufstart = 0; bufend = 27302705; bufvoid = 104857600
+2016-12-09 17:34:26 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25628152(102512608); length = 586245/6553600
+2016-12-09 17:34:26 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:34:26 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000006_0 is done. And is in the process of committing
+2016-12-09 17:34:26 INFO  LocalJobRunner:591 - map
+2016-12-09 17:34:26 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000006_0' done.
+2016-12-09 17:34:26 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000006_0
+2016-12-09 17:34:26 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000007_0
+2016-12-09 17:34:26 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:34:26 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:34:26 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:34:26 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:234881024+33554432
+2016-12-09 17:34:26 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:34:26 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:34:26 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:34:26 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:34:26 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:34:26 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:34:26 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:34:32 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:32 INFO  Job:1367 -  map 55% reduce 0%
+2016-12-09 17:34:35 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:38 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:38 INFO  Job:1367 -  map 56% reduce 0%
+2016-12-09 17:34:41 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:44 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:44 INFO  Job:1367 -  map 57% reduce 0%
+2016-12-09 17:34:47 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:50 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:50 INFO  Job:1367 -  map 58% reduce 0%
+2016-12-09 17:34:53 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:53 INFO  Job:1367 -  map 59% reduce 0%
+2016-12-09 17:34:56 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:34:56 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:34:56 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:34:56 INFO  MapTask:1483 - bufstart = 0; bufend = 24865469; bufvoid = 104857600
+2016-12-09 17:34:56 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25667512(102670048); length = 546885/6553600
+2016-12-09 17:34:56 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:34:56 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000007_0 is done. And is in the process of committing
+2016-12-09 17:34:56 INFO  LocalJobRunner:591 - map
+2016-12-09 17:34:56 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000007_0' done.
+2016-12-09 17:34:56 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000007_0
+2016-12-09 17:34:56 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000008_0
+2016-12-09 17:34:56 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:34:56 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:34:56 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:34:56 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:268435456+33554432
+2016-12-09 17:34:56 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:34:56 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:34:56 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:34:56 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:34:56 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:34:56 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:34:56 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:35:02 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:02 INFO  Job:1367 -  map 62% reduce 0%
+2016-12-09 17:35:05 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:05 INFO  Job:1367 -  map 63% reduce 0%
+2016-12-09 17:35:08 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:11 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:12 INFO  Job:1367 -  map 64% reduce 0%
+2016-12-09 17:35:14 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:17 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:18 INFO  Job:1367 -  map 65% reduce 0%
+2016-12-09 17:35:20 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:23 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:24 INFO  Job:1367 -  map 66% reduce 0%
+2016-12-09 17:35:26 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:27 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:27 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:35:27 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:35:27 INFO  MapTask:1483 - bufstart = 0; bufend = 25245122; bufvoid = 104857600
+2016-12-09 17:35:27 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25655240(102620960); length = 559157/6553600
+2016-12-09 17:35:28 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:35:28 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000008_0 is done. And is in the process of committing
+2016-12-09 17:35:28 INFO  LocalJobRunner:591 - map
+2016-12-09 17:35:28 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000008_0' done.
+2016-12-09 17:35:28 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000008_0
+2016-12-09 17:35:28 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000009_0
+2016-12-09 17:35:28 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:35:28 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:35:28 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:35:28 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:301989888+33554432
+2016-12-09 17:35:28 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:35:28 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:35:28 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:35:28 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:35:28 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:35:28 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:35:29 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:35:34 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:35 INFO  Job:1367 -  map 70% reduce 0%
+2016-12-09 17:35:37 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:38 INFO  Job:1367 -  map 71% reduce 0%
+2016-12-09 17:35:40 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:43 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:44 INFO  Job:1367 -  map 72% reduce 0%
+2016-12-09 17:35:46 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:49 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:50 INFO  Job:1367 -  map 73% reduce 0%
+2016-12-09 17:35:52 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:55 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:56 INFO  Job:1367 -  map 74% reduce 0%
+2016-12-09 17:35:57 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:35:57 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:35:57 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:35:57 INFO  MapTask:1483 - bufstart = 0; bufend = 23682641; bufvoid = 104857600
+2016-12-09 17:35:57 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25685932(102743728); length = 528465/6553600
+2016-12-09 17:35:57 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:35:57 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000009_0 is done. And is in the process of committing
+2016-12-09 17:35:57 INFO  LocalJobRunner:591 - map
+2016-12-09 17:35:57 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000009_0' done.
+2016-12-09 17:35:57 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000009_0
+2016-12-09 17:35:57 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000010_0
+2016-12-09 17:35:57 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:35:57 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:35:57 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:35:57 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:335544320+33554432
+2016-12-09 17:35:57 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:35:57 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:35:57 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:35:57 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:35:57 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:35:57 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:35:58 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:36:03 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:04 INFO  Job:1367 -  map 78% reduce 0%
+2016-12-09 17:36:06 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:07 INFO  Job:1367 -  map 79% reduce 0%
+2016-12-09 17:36:09 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:12 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:13 INFO  Job:1367 -  map 80% reduce 0%
+2016-12-09 17:36:15 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:18 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:19 INFO  Job:1367 -  map 81% reduce 0%
+2016-12-09 17:36:21 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:24 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:24 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:24 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:36:24 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:36:24 INFO  MapTask:1483 - bufstart = 0; bufend = 20151253; bufvoid = 104857600
+2016-12-09 17:36:24 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25747788(102991152); length = 466609/6553600
+2016-12-09 17:36:25 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:36:25 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000010_0 is done. And is in the process of committing
+2016-12-09 17:36:25 INFO  LocalJobRunner:591 - map
+2016-12-09 17:36:25 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000010_0' done.
+2016-12-09 17:36:25 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000010_0
+2016-12-09 17:36:25 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000011_0
+2016-12-09 17:36:25 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:36:25 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:36:25 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:36:25 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:369098752+33554432
+2016-12-09 17:36:25 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:36:25 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:36:25 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:36:25 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:36:25 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:36:25 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:36:25 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:36:31 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:31 INFO  Job:1367 -  map 86% reduce 0%
+2016-12-09 17:36:34 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:37 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:37 INFO  Job:1367 -  map 87% reduce 0%
+2016-12-09 17:36:40 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:40 INFO  Job:1367 -  map 88% reduce 0%
+2016-12-09 17:36:43 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:46 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:46 INFO  Job:1367 -  map 89% reduce 0%
+2016-12-09 17:36:49 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:51 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:51 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:36:51 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:36:51 INFO  MapTask:1483 - bufstart = 0; bufend = 18665942; bufvoid = 104857600
+2016-12-09 17:36:51 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25778788(103115152); length = 435609/6553600
+2016-12-09 17:36:51 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:36:51 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000011_0 is done. And is in the process of committing
+2016-12-09 17:36:51 INFO  LocalJobRunner:591 - map
+2016-12-09 17:36:51 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000011_0' done.
+2016-12-09 17:36:51 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000011_0
+2016-12-09 17:36:51 INFO  LocalJobRunner:224 - Starting task: attempt_local1737395097_0001_m_000012_0
+2016-12-09 17:36:51 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:36:51 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:36:51 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:36:51 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Downloads/labeled.csv.bz2:402653184+19465786
+2016-12-09 17:36:51 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 17:36:51 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 17:36:51 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 17:36:51 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 17:36:51 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 17:36:51 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 17:36:51 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:36:57 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:36:57 INFO  Job:1367 -  map 94% reduce 0%
+2016-12-09 17:37:00 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:37:00 INFO  Job:1367 -  map 95% reduce 0%
+2016-12-09 17:37:03 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:37:03 INFO  Job:1367 -  map 96% reduce 0%
+2016-12-09 17:37:06 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:37:09 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:37:09 INFO  Job:1367 -  map 97% reduce 0%
+2016-12-09 17:37:10 INFO  LocalJobRunner:591 - map > map
+2016-12-09 17:37:10 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 17:37:10 INFO  MapTask:1482 - Spilling map output
+2016-12-09 17:37:10 INFO  MapTask:1483 - bufstart = 0; bufend = 13307473; bufvoid = 104857600
+2016-12-09 17:37:10 INFO  MapTask:1485 - kvstart = 26214396(104857584); kvend = 25915084(103660336); length = 299313/6553600
+2016-12-09 17:37:10 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 17:37:10 INFO  Task:1038 - Task:attempt_local1737395097_0001_m_000012_0 is done. And is in the process of committing
+2016-12-09 17:37:10 INFO  LocalJobRunner:591 - map
+2016-12-09 17:37:10 INFO  Task:1158 - Task 'attempt_local1737395097_0001_m_000012_0' done.
+2016-12-09 17:37:10 INFO  LocalJobRunner:249 - Finishing task: attempt_local1737395097_0001_m_000012_0
+2016-12-09 17:37:10 INFO  LocalJobRunner:456 - map task executor complete.
+2016-12-09 17:37:10 INFO  LocalJobRunner:448 - Waiting for reduce tasks
+2016-12-09 17:37:10 INFO  LocalJobRunner:302 - Starting task: attempt_local1737395097_0001_r_000000_0
+2016-12-09 17:37:10 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:37:10 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 17:37:10 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 17:37:10 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@2c72b972
+2016-12-09 17:37:10 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 17:37:10 INFO  EventFetcher:61 - attempt_local1737395097_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 17:37:10 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000006_0 decomp: 27722450 len: 27722454 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 27722450 bytes from map-output for attempt_local1737395097_0001_m_000006_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 27722450, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->27722450
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000000_0 decomp: 30428364 len: 30428368 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 30428364 bytes from map-output for attempt_local1737395097_0001_m_000000_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 30428364, inMemoryMapOutputs.size() -> 2, commitMemory -> 27722450, usedMemory ->58150814
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000012_0 decomp: 13515926 len: 13515930 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 13515926 bytes from map-output for attempt_local1737395097_0001_m_000012_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 13515926, inMemoryMapOutputs.size() -> 3, commitMemory -> 58150814, usedMemory ->71666740
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000009_0 decomp: 24054023 len: 24054027 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 24054023 bytes from map-output for attempt_local1737395097_0001_m_000009_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 24054023, inMemoryMapOutputs.size() -> 4, commitMemory -> 71666740, usedMemory ->95720763
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000003_0 decomp: 26863964 len: 26863968 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 26863964 bytes from map-output for attempt_local1737395097_0001_m_000003_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 26863964, inMemoryMapOutputs.size() -> 5, commitMemory -> 95720763, usedMemory ->122584727
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000007_0 decomp: 25251750 len: 25251754 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 25251750 bytes from map-output for attempt_local1737395097_0001_m_000007_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 25251750, inMemoryMapOutputs.size() -> 6, commitMemory -> 122584727, usedMemory ->147836477
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000010_0 decomp: 20471776 len: 20471780 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 20471776 bytes from map-output for attempt_local1737395097_0001_m_000010_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 20471776, inMemoryMapOutputs.size() -> 7, commitMemory -> 147836477, usedMemory ->168308253
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000011_0 decomp: 18964615 len: 18964619 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 18964615 bytes from map-output for attempt_local1737395097_0001_m_000011_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18964615, inMemoryMapOutputs.size() -> 8, commitMemory -> 168308253, usedMemory ->187272868
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000004_0 decomp: 28443581 len: 28443585 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 28443581 bytes from map-output for attempt_local1737395097_0001_m_000004_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 28443581, inMemoryMapOutputs.size() -> 9, commitMemory -> 187272868, usedMemory ->215716449
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000001_0 decomp: 28079686 len: 28079690 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 28079686 bytes from map-output for attempt_local1737395097_0001_m_000001_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 28079686, inMemoryMapOutputs.size() -> 10, commitMemory -> 215716449, usedMemory ->243796135
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000008_0 decomp: 25638307 len: 25638311 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 25638307 bytes from map-output for attempt_local1737395097_0001_m_000008_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 25638307, inMemoryMapOutputs.size() -> 11, commitMemory -> 243796135, usedMemory ->269434442
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000002_0 decomp: 28182540 len: 28182544 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 28182540 bytes from map-output for attempt_local1737395097_0001_m_000002_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 28182540, inMemoryMapOutputs.size() -> 12, commitMemory -> 269434442, usedMemory ->297616982
+2016-12-09 17:37:10 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1737395097_0001_m_000005_0 decomp: 29173984 len: 29173988 to MEMORY
+2016-12-09 17:37:10 INFO  InMemoryMapOutput:100 - Read 29173984 bytes from map-output for attempt_local1737395097_0001_m_000005_0
+2016-12-09 17:37:10 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 29173984, inMemoryMapOutputs.size() -> 13, commitMemory -> 297616982, usedMemory ->326790966
+2016-12-09 17:37:10 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 17:37:10 INFO  LocalJobRunner:591 - 13 / 13 copied.
+2016-12-09 17:37:10 INFO  MergeManagerImpl:687 - finalMerge called with 13 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 17:37:10 INFO  Merger:606 - Merging 13 sorted segments
+2016-12-09 17:37:10 INFO  Merger:705 - Down to the last merge-pass, with 13 segments left of total size: 326790811 bytes
+2016-12-09 17:37:12 INFO  MergeManagerImpl:754 - Merged 13 segments, 326790966 bytes to disk to satisfy reduce memory limit
+2016-12-09 17:37:12 INFO  MergeManagerImpl:784 - Merging 1 files, 326790946 bytes from disk
+2016-12-09 17:37:12 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 17:37:12 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 17:37:12 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 326790931 bytes
+2016-12-09 17:37:12 INFO  LocalJobRunner:591 - 13 / 13 copied.
+2016-12-09 17:37:12 INFO  deprecation:1173 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2016-12-09 17:37:12 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:37:12 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 17:37:15 INFO  Task:1038 - Task:attempt_local1737395097_0001_r_000000_0 is done. And is in the process of committing
+2016-12-09 17:37:15 INFO  LocalJobRunner:591 - 13 / 13 copied.
+2016-12-09 17:37:15 INFO  Task:1199 - Task attempt_local1737395097_0001_r_000000_0 is allowed to commit now
+2016-12-09 17:37:15 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1737395097_0001_r_000000_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-clean-job/_temporary/0/task_local1737395097_0001_r_000000
+2016-12-09 17:37:15 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 17:37:15 INFO  Task:1158 - Task 'attempt_local1737395097_0001_r_000000_0' done.
+2016-12-09 17:37:15 INFO  LocalJobRunner:325 - Finishing task: attempt_local1737395097_0001_r_000000_0
+2016-12-09 17:37:15 INFO  LocalJobRunner:456 - reduce task executor complete.
+2016-12-09 17:37:16 INFO  Job:1367 -  map 100% reduce 100%
+2016-12-09 17:37:16 INFO  Job:1378 - Job job_local1737395097_0001 completed successfully
+2016-12-09 17:37:16 INFO  Job:1385 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=4123345540
+		FILE: Number of bytes written=3449390962
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1701976
+		Map output records=1701975
+		Map output bytes=321887023
+		Map output materialized bytes=326791018
+		Input split bytes=1443
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=325561
+		Reduce shuffle bytes=326791018
+		Reduce input records=1701975
+		Reduce output records=0
+		Spilled Records=3403950
+		Shuffled Maps =13
+		Failed Shuffles=0
+		Merged Map outputs=13
+		GC time elapsed (ms)=1497
+		Total committed heap usage (bytes)=26469203968
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=423089732
+	File Output Format Counters 
+		Bytes Written=8

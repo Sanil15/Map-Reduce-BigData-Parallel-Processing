@@ -1,0 +1,920 @@
+2016-12-09 18:34:14 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-12-09 18:34:14 INFO  deprecation:1173 - session.id is deprecated. Instead, use dfs.metrics.session-id
+2016-12-09 18:34:14 INFO  JvmMetrics:76 - Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-12-09 18:34:14 WARN  JobResourceUploader:171 - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2016-12-09 18:34:14 INFO  FileInputFormat:283 - Total input paths to process : 1
+2016-12-09 18:34:14 INFO  JobSubmitter:198 - number of splits:7
+2016-12-09 18:34:15 INFO  JobSubmitter:287 - Submitting tokens for job: job_local1940562010_0001
+2016-12-09 18:34:15 INFO  Job:1294 - The url to track the job: http://localhost:8080/
+2016-12-09 18:34:15 INFO  Job:1339 - Running job: job_local1940562010_0001
+2016-12-09 18:34:15 INFO  LocalJobRunner:471 - OutputCommitter set in config null
+2016-12-09 18:34:15 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:34:15 INFO  LocalJobRunner:489 - OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2016-12-09 18:34:15 INFO  LocalJobRunner:448 - Waiting for map tasks
+2016-12-09 18:34:15 INFO  LocalJobRunner:224 - Starting task: attempt_local1940562010_0001_m_000000_0
+2016-12-09 18:34:15 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:34:15 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 18:34:15 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 18:34:15 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-clean-job/TRAIN-r-00000:0+33554432
+2016-12-09 18:34:15 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 18:34:15 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 18:34:15 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 18:34:15 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 18:34:15 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 18:34:15 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 18:34:15 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:15 INFO  MapTask:1572 - bufstart = 0; bufend = 77562045; bufvoid = 104857600
+2016-12-09 18:34:15 INFO  MapTask:1574 - kvstart = 26214396(104857584); kvend = 24633296(98533184); length = 1581101/6553600
+2016-12-09 18:34:15 INFO  MapTask:1205 - (EQUATOR) 79144765 kvi 19786184(79144736)
+2016-12-09 18:34:16 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 18:34:16 INFO  MapTask:1222 - (RESET) equator 79144765 kv 19786184(79144736) kvi 19390516(77562064)
+2016-12-09 18:34:16 INFO  Job:1360 - Job job_local1940562010_0001 running in uber mode : false
+2016-12-09 18:34:16 INFO  Job:1367 -  map 0% reduce 0%
+2016-12-09 18:34:16 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:16 INFO  MapTask:1572 - bufstart = 79144765; bufend = 52011924; bufvoid = 104857600
+2016-12-09 18:34:16 INFO  MapTask:1574 - kvstart = 19786184(79144736); kvend = 18245840(72983360); length = 1540345/6553600
+2016-12-09 18:34:16 INFO  MapTask:1205 - (EQUATOR) 53579876 kvi 13394964(53579856)
+2016-12-09 18:34:16 INFO  MapTask:1667 - Finished spill 1
+2016-12-09 18:34:16 INFO  MapTask:1222 - (RESET) equator 53579876 kv 13394964(53579856) kvi 13023504(52094016)
+2016-12-09 18:34:16 INFO  LocalJobRunner:591 - 
+2016-12-09 18:34:16 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 18:34:16 INFO  MapTask:1482 - Spilling map output
+2016-12-09 18:34:16 INFO  MapTask:1483 - bufstart = 53579876; bufend = 10540651; bufvoid = 104857600
+2016-12-09 18:34:16 INFO  MapTask:1485 - kvstart = 13394964(53579856); kvend = 12098628(48394512); length = 1296337/6553600
+2016-12-09 18:34:17 INFO  MapTask:1667 - Finished spill 2
+2016-12-09 18:34:17 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:17 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22005614 bytes
+2016-12-09 18:34:17 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:17 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22084327 bytes
+2016-12-09 18:34:17 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:17 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22037921 bytes
+2016-12-09 18:34:17 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:17 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 21972176 bytes
+2016-12-09 18:34:17 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:17 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22033637 bytes
+2016-12-09 18:34:18 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:18 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22060145 bytes
+2016-12-09 18:34:18 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:18 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22128262 bytes
+2016-12-09 18:34:18 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:18 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22012090 bytes
+2016-12-09 18:34:18 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:18 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22067682 bytes
+2016-12-09 18:34:18 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:18 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 21984950 bytes
+2016-12-09 18:34:18 INFO  Task:1038 - Task:attempt_local1940562010_0001_m_000000_0 is done. And is in the process of committing
+2016-12-09 18:34:18 INFO  LocalJobRunner:591 - map > sort
+2016-12-09 18:34:18 INFO  Task:1158 - Task 'attempt_local1940562010_0001_m_000000_0' done.
+2016-12-09 18:34:18 INFO  LocalJobRunner:249 - Finishing task: attempt_local1940562010_0001_m_000000_0
+2016-12-09 18:34:18 INFO  LocalJobRunner:224 - Starting task: attempt_local1940562010_0001_m_000001_0
+2016-12-09 18:34:18 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:34:18 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 18:34:18 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 18:34:18 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-clean-job/TRAIN-r-00000:33554432+33554432
+2016-12-09 18:34:18 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 18:34:18 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 18:34:18 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 18:34:18 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 18:34:18 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 18:34:18 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 18:34:19 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:19 INFO  MapTask:1572 - bufstart = 0; bufend = 77328045; bufvoid = 104857600
+2016-12-09 18:34:19 INFO  MapTask:1574 - kvstart = 26214396(104857584); kvend = 24574876(98299504); length = 1639521/6553600
+2016-12-09 18:34:19 INFO  MapTask:1205 - (EQUATOR) 78972861 kvi 19743208(78972832)
+2016-12-09 18:34:19 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 18:34:19 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 18:34:19 INFO  MapTask:1222 - (RESET) equator 78972861 kv 19743208(78972832) kvi 19376696(77506784)
+2016-12-09 18:34:19 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:19 INFO  MapTask:1572 - bufstart = 78972861; bufend = 51578595; bufvoid = 104857600
+2016-12-09 18:34:19 INFO  MapTask:1574 - kvstart = 19743208(78972832); kvend = 18137512(72550048); length = 1605697/6553600
+2016-12-09 18:34:19 INFO  MapTask:1205 - (EQUATOR) 53207443 kvi 13301856(53207424)
+2016-12-09 18:34:20 INFO  MapTask:1667 - Finished spill 1
+2016-12-09 18:34:20 INFO  MapTask:1222 - (RESET) equator 53207443 kv 13301856(53207424) kvi 12894656(51578624)
+2016-12-09 18:34:20 INFO  LocalJobRunner:591 - 
+2016-12-09 18:34:20 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 18:34:20 INFO  MapTask:1482 - Spilling map output
+2016-12-09 18:34:20 INFO  MapTask:1483 - bufstart = 53207443; bufend = 10433837; bufvoid = 104857600
+2016-12-09 18:34:20 INFO  MapTask:1485 - kvstart = 13301856(53207424); kvend = 11898976(47595904); length = 1402881/6553600
+2016-12-09 18:34:20 INFO  Job:1367 -  map 14% reduce 0%
+2016-12-09 18:34:20 INFO  MapTask:1667 - Finished spill 2
+2016-12-09 18:34:20 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:20 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22033607 bytes
+2016-12-09 18:34:20 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:20 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22032367 bytes
+2016-12-09 18:34:20 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:20 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22002841 bytes
+2016-12-09 18:34:20 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:20 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22034419 bytes
+2016-12-09 18:34:21 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:21 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22052383 bytes
+2016-12-09 18:34:21 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:21 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 21978358 bytes
+2016-12-09 18:34:21 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:21 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22064052 bytes
+2016-12-09 18:34:21 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:21 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 21995645 bytes
+2016-12-09 18:34:21 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:21 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22053062 bytes
+2016-12-09 18:34:21 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:21 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22001320 bytes
+2016-12-09 18:34:22 INFO  Task:1038 - Task:attempt_local1940562010_0001_m_000001_0 is done. And is in the process of committing
+2016-12-09 18:34:22 INFO  LocalJobRunner:591 - map > sort
+2016-12-09 18:34:22 INFO  Task:1158 - Task 'attempt_local1940562010_0001_m_000001_0' done.
+2016-12-09 18:34:22 INFO  LocalJobRunner:249 - Finishing task: attempt_local1940562010_0001_m_000001_0
+2016-12-09 18:34:22 INFO  LocalJobRunner:224 - Starting task: attempt_local1940562010_0001_m_000002_0
+2016-12-09 18:34:22 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:34:22 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 18:34:22 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 18:34:22 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-clean-job/TRAIN-r-00000:67108864+33554432
+2016-12-09 18:34:22 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 18:34:22 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 18:34:22 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 18:34:22 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 18:34:22 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 18:34:22 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 18:34:22 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:22 INFO  MapTask:1572 - bufstart = 0; bufend = 77404724; bufvoid = 104857600
+2016-12-09 18:34:22 INFO  MapTask:1574 - kvstart = 26214396(104857584); kvend = 24594036(98376144); length = 1620361/6553600
+2016-12-09 18:34:22 INFO  MapTask:1205 - (EQUATOR) 79025700 kvi 19756420(79025680)
+2016-12-09 18:34:22 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 18:34:22 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 18:34:22 INFO  MapTask:1222 - (RESET) equator 79025700 kv 19756420(79025680) kvi 19351188(77404752)
+2016-12-09 18:34:22 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:22 INFO  MapTask:1572 - bufstart = 79025700; bufend = 50924086; bufvoid = 104857600
+2016-12-09 18:34:22 INFO  MapTask:1574 - kvstart = 19756420(79025680); kvend = 17973864(71895456); length = 1782557/6553600
+2016-12-09 18:34:22 INFO  MapTask:1205 - (EQUATOR) 52627334 kvi 13156828(52627312)
+2016-12-09 18:34:23 INFO  MapTask:1667 - Finished spill 1
+2016-12-09 18:34:23 INFO  MapTask:1222 - (RESET) equator 52627334 kv 13156828(52627312) kvi 12731028(50924112)
+2016-12-09 18:34:23 INFO  LocalJobRunner:591 - 
+2016-12-09 18:34:23 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 18:34:23 INFO  MapTask:1482 - Spilling map output
+2016-12-09 18:34:23 INFO  MapTask:1483 - bufstart = 52627334; bufend = 10864659; bufvoid = 104857600
+2016-12-09 18:34:23 INFO  MapTask:1485 - kvstart = 13156828(52627312); kvend = 11698044(46792176); length = 1458785/6553600
+2016-12-09 18:34:23 INFO  MapTask:1667 - Finished spill 2
+2016-12-09 18:34:23 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:23 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22063839 bytes
+2016-12-09 18:34:23 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:23 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22144267 bytes
+2016-12-09 18:34:24 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:24 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22061355 bytes
+2016-12-09 18:34:24 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:24 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22079160 bytes
+2016-12-09 18:34:24 INFO  Job:1367 -  map 29% reduce 0%
+2016-12-09 18:34:24 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:24 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22075538 bytes
+2016-12-09 18:34:24 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:24 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22061360 bytes
+2016-12-09 18:34:24 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:24 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22054205 bytes
+2016-12-09 18:34:24 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:24 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22037820 bytes
+2016-12-09 18:34:24 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:24 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22065152 bytes
+2016-12-09 18:34:25 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:25 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22060697 bytes
+2016-12-09 18:34:25 INFO  Task:1038 - Task:attempt_local1940562010_0001_m_000002_0 is done. And is in the process of committing
+2016-12-09 18:34:25 INFO  LocalJobRunner:591 - map > sort
+2016-12-09 18:34:25 INFO  Task:1158 - Task 'attempt_local1940562010_0001_m_000002_0' done.
+2016-12-09 18:34:25 INFO  LocalJobRunner:249 - Finishing task: attempt_local1940562010_0001_m_000002_0
+2016-12-09 18:34:25 INFO  LocalJobRunner:224 - Starting task: attempt_local1940562010_0001_m_000003_0
+2016-12-09 18:34:25 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:34:25 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 18:34:25 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 18:34:25 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-clean-job/TRAIN-r-00000:100663296+33554432
+2016-12-09 18:34:25 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 18:34:25 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 18:34:25 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 18:34:25 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 18:34:25 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 18:34:25 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 18:34:25 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:25 INFO  MapTask:1572 - bufstart = 0; bufend = 76500634; bufvoid = 104857600
+2016-12-09 18:34:25 INFO  MapTask:1574 - kvstart = 26214396(104857584); kvend = 24368040(97472160); length = 1846357/6553600
+2016-12-09 18:34:25 INFO  MapTask:1205 - (EQUATOR) 78354458 kvi 19588608(78354432)
+2016-12-09 18:34:25 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 18:34:25 INFO  MapTask:1222 - (RESET) equator 78354458 kv 19588608(78354432) kvi 19127272(76509088)
+2016-12-09 18:34:25 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:25 INFO  MapTask:1572 - bufstart = 78354458; bufend = 50259030; bufvoid = 104857600
+2016-12-09 18:34:25 INFO  MapTask:1574 - kvstart = 19588608(78354432); kvend = 17807632(71230528); length = 1780977/6553600
+2016-12-09 18:34:25 INFO  MapTask:1205 - (EQUATOR) 52072774 kvi 13018188(52072752)
+2016-12-09 18:34:26 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 18:34:26 INFO  MapTask:1667 - Finished spill 1
+2016-12-09 18:34:26 INFO  MapTask:1222 - (RESET) equator 52072774 kv 13018188(52072752) kvi 12601592(50406368)
+2016-12-09 18:34:26 INFO  LocalJobRunner:591 - 
+2016-12-09 18:34:26 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 18:34:26 INFO  MapTask:1482 - Spilling map output
+2016-12-09 18:34:26 INFO  MapTask:1483 - bufstart = 52072774; bufend = 11362676; bufvoid = 104857600
+2016-12-09 18:34:26 INFO  MapTask:1485 - kvstart = 13018188(52072752); kvend = 11583568(46334272); length = 1434621/6553600
+2016-12-09 18:34:26 INFO  MapTask:1667 - Finished spill 2
+2016-12-09 18:34:26 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:26 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22035549 bytes
+2016-12-09 18:34:27 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:27 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22081029 bytes
+2016-12-09 18:34:27 INFO  Job:1367 -  map 43% reduce 0%
+2016-12-09 18:34:27 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:27 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22037476 bytes
+2016-12-09 18:34:27 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:27 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22097775 bytes
+2016-12-09 18:34:27 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:27 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22083478 bytes
+2016-12-09 18:34:27 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:27 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22136405 bytes
+2016-12-09 18:34:27 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:27 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22161549 bytes
+2016-12-09 18:34:28 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:28 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22045313 bytes
+2016-12-09 18:34:28 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:28 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22127180 bytes
+2016-12-09 18:34:28 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:28 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22097851 bytes
+2016-12-09 18:34:28 INFO  Task:1038 - Task:attempt_local1940562010_0001_m_000003_0 is done. And is in the process of committing
+2016-12-09 18:34:28 INFO  LocalJobRunner:591 - map > sort
+2016-12-09 18:34:28 INFO  Task:1158 - Task 'attempt_local1940562010_0001_m_000003_0' done.
+2016-12-09 18:34:28 INFO  LocalJobRunner:249 - Finishing task: attempt_local1940562010_0001_m_000003_0
+2016-12-09 18:34:28 INFO  LocalJobRunner:224 - Starting task: attempt_local1940562010_0001_m_000004_0
+2016-12-09 18:34:28 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:34:28 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 18:34:28 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 18:34:28 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-clean-job/TRAIN-r-00000:134217728+33554432
+2016-12-09 18:34:28 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 18:34:28 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 18:34:28 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 18:34:28 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 18:34:28 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 18:34:28 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 18:34:28 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:28 INFO  MapTask:1572 - bufstart = 0; bufend = 76541951; bufvoid = 104857600
+2016-12-09 18:34:28 INFO  MapTask:1574 - kvstart = 26214396(104857584); kvend = 24378352(97513408); length = 1836045/6553600
+2016-12-09 18:34:28 INFO  MapTask:1205 - (EQUATOR) 78385583 kvi 19596388(78385552)
+2016-12-09 18:34:29 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 18:34:29 INFO  MapTask:1222 - (RESET) equator 78385583 kv 19596388(78385552) kvi 19135492(76541968)
+2016-12-09 18:34:29 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 18:34:29 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:29 INFO  MapTask:1572 - bufstart = 78385583; bufend = 49743967; bufvoid = 104857600
+2016-12-09 18:34:29 INFO  MapTask:1574 - kvstart = 19596388(78385552); kvend = 17678840(70715360); length = 1917549/6553600
+2016-12-09 18:34:29 INFO  MapTask:1205 - (EQUATOR) 51629023 kvi 12907248(51628992)
+2016-12-09 18:34:29 INFO  MapTask:1667 - Finished spill 1
+2016-12-09 18:34:29 INFO  MapTask:1222 - (RESET) equator 51629023 kv 12907248(51628992) kvi 12510412(50041648)
+2016-12-09 18:34:29 INFO  LocalJobRunner:591 - 
+2016-12-09 18:34:29 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 18:34:29 INFO  MapTask:1482 - Spilling map output
+2016-12-09 18:34:29 INFO  MapTask:1483 - bufstart = 51629023; bufend = 11476978; bufvoid = 104857600
+2016-12-09 18:34:29 INFO  MapTask:1485 - kvstart = 12907248(51628992); kvend = 11623792(46495168); length = 1283457/6553600
+2016-12-09 18:34:30 INFO  MapTask:1667 - Finished spill 2
+2016-12-09 18:34:30 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:30 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22042064 bytes
+2016-12-09 18:34:30 INFO  Job:1367 -  map 57% reduce 0%
+2016-12-09 18:34:30 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:30 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22124446 bytes
+2016-12-09 18:34:30 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:30 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22109943 bytes
+2016-12-09 18:34:30 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:30 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22144736 bytes
+2016-12-09 18:34:30 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:30 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22042411 bytes
+2016-12-09 18:34:30 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:30 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22128479 bytes
+2016-12-09 18:34:31 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:31 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22068950 bytes
+2016-12-09 18:34:31 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:31 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22109153 bytes
+2016-12-09 18:34:31 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:31 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22109294 bytes
+2016-12-09 18:34:31 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:31 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22076696 bytes
+2016-12-09 18:34:31 INFO  Task:1038 - Task:attempt_local1940562010_0001_m_000004_0 is done. And is in the process of committing
+2016-12-09 18:34:31 INFO  LocalJobRunner:591 - map > sort
+2016-12-09 18:34:31 INFO  Task:1158 - Task 'attempt_local1940562010_0001_m_000004_0' done.
+2016-12-09 18:34:31 INFO  LocalJobRunner:249 - Finishing task: attempt_local1940562010_0001_m_000004_0
+2016-12-09 18:34:31 INFO  LocalJobRunner:224 - Starting task: attempt_local1940562010_0001_m_000005_0
+2016-12-09 18:34:31 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:34:31 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 18:34:31 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 18:34:31 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-clean-job/TRAIN-r-00000:167772160+33554432
+2016-12-09 18:34:31 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 18:34:31 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 18:34:31 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 18:34:31 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 18:34:31 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 18:34:31 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 18:34:31 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:31 INFO  MapTask:1572 - bufstart = 0; bufend = 77947297; bufvoid = 104857600
+2016-12-09 18:34:31 INFO  MapTask:1574 - kvstart = 26214396(104857584); kvend = 24729696(98918784); length = 1484701/6553600
+2016-12-09 18:34:31 INFO  MapTask:1205 - (EQUATOR) 79432001 kvi 19857996(79431984)
+2016-12-09 18:34:32 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 18:34:32 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 18:34:32 INFO  MapTask:1222 - (RESET) equator 79432001 kv 19857996(79431984) kvi 19486832(77947328)
+2016-12-09 18:34:32 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:32 INFO  MapTask:1572 - bufstart = 79432001; bufend = 52319547; bufvoid = 104857600
+2016-12-09 18:34:32 INFO  MapTask:1574 - kvstart = 19857996(79431984); kvend = 18322732(73290928); length = 1535265/6553600
+2016-12-09 18:34:32 INFO  MapTask:1205 - (EQUATOR) 53830987 kvi 13457740(53830960)
+2016-12-09 18:34:32 INFO  MapTask:1667 - Finished spill 1
+2016-12-09 18:34:32 INFO  MapTask:1222 - (RESET) equator 53830987 kv 13457740(53830960) kvi 13079892(52319568)
+2016-12-09 18:34:32 INFO  LocalJobRunner:591 - 
+2016-12-09 18:34:32 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 18:34:32 INFO  MapTask:1482 - Spilling map output
+2016-12-09 18:34:32 INFO  MapTask:1483 - bufstart = 53830987; bufend = 9989601; bufvoid = 104857600
+2016-12-09 18:34:32 INFO  MapTask:1485 - kvstart = 13457740(53830960); kvend = 12187396(48749584); length = 1270345/6553600
+2016-12-09 18:34:33 INFO  Job:1367 -  map 71% reduce 0%
+2016-12-09 18:34:33 INFO  MapTask:1667 - Finished spill 2
+2016-12-09 18:34:33 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:33 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 21948855 bytes
+2016-12-09 18:34:33 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:33 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 21955064 bytes
+2016-12-09 18:34:33 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:33 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 21987845 bytes
+2016-12-09 18:34:33 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:33 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22027901 bytes
+2016-12-09 18:34:33 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:33 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 21998015 bytes
+2016-12-09 18:34:34 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:34 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22017603 bytes
+2016-12-09 18:34:34 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:34 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 21974851 bytes
+2016-12-09 18:34:34 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:34 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22041541 bytes
+2016-12-09 18:34:34 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:34 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 21928378 bytes
+2016-12-09 18:34:34 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:34 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 22088880 bytes
+2016-12-09 18:34:34 INFO  Task:1038 - Task:attempt_local1940562010_0001_m_000005_0 is done. And is in the process of committing
+2016-12-09 18:34:34 INFO  LocalJobRunner:591 - map > sort
+2016-12-09 18:34:34 INFO  Task:1158 - Task 'attempt_local1940562010_0001_m_000005_0' done.
+2016-12-09 18:34:34 INFO  LocalJobRunner:249 - Finishing task: attempt_local1940562010_0001_m_000005_0
+2016-12-09 18:34:34 INFO  LocalJobRunner:224 - Starting task: attempt_local1940562010_0001_m_000006_0
+2016-12-09 18:34:34 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:34:34 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 18:34:34 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 18:34:34 INFO  MapTask:756 - Processing split: file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-clean-job/TRAIN-r-00000:201326592+28253420
+2016-12-09 18:34:34 INFO  MapTask:1205 - (EQUATOR) 0 kvi 26214396(104857584)
+2016-12-09 18:34:34 INFO  MapTask:998 - mapreduce.task.io.sort.mb: 100
+2016-12-09 18:34:34 INFO  MapTask:999 - soft limit at 83886080
+2016-12-09 18:34:34 INFO  MapTask:1000 - bufstart = 0; bufvoid = 104857600
+2016-12-09 18:34:34 INFO  MapTask:1001 - kvstart = 26214396; length = 6553600
+2016-12-09 18:34:34 INFO  MapTask:403 - Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-12-09 18:34:34 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:34 INFO  MapTask:1572 - bufstart = 0; bufend = 77479983; bufvoid = 104857600
+2016-12-09 18:34:34 INFO  MapTask:1574 - kvstart = 26214396(104857584); kvend = 24612836(98451344); length = 1601561/6553600
+2016-12-09 18:34:34 INFO  MapTask:1205 - (EQUATOR) 79085439 kvi 19771352(79085408)
+2016-12-09 18:34:35 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 18:34:35 INFO  MapTask:1667 - Finished spill 0
+2016-12-09 18:34:35 INFO  MapTask:1222 - (RESET) equator 79085439 kv 19771352(79085408) kvi 19370000(77480000)
+2016-12-09 18:34:35 INFO  MapTask:1571 - Spilling map output
+2016-12-09 18:34:35 INFO  MapTask:1572 - bufstart = 79085439; bufend = 51482652; bufvoid = 104857600
+2016-12-09 18:34:35 INFO  MapTask:1574 - kvstart = 19771352(79085408); kvend = 18113520(72454080); length = 1657833/6553600
+2016-12-09 18:34:35 INFO  MapTask:1205 - (EQUATOR) 53119436 kvi 13279852(53119408)
+2016-12-09 18:34:35 INFO  MapTask:1667 - Finished spill 1
+2016-12-09 18:34:35 INFO  MapTask:1222 - (RESET) equator 53119436 kv 13279852(53119408) kvi 12870668(51482672)
+2016-12-09 18:34:36 INFO  LocalJobRunner:591 - 
+2016-12-09 18:34:36 INFO  MapTask:1460 - Starting flush of map output
+2016-12-09 18:34:36 INFO  MapTask:1482 - Spilling map output
+2016-12-09 18:34:36 INFO  MapTask:1483 - bufstart = 53119436; bufend = 81184696; bufvoid = 104857600
+2016-12-09 18:34:36 INFO  MapTask:1485 - kvstart = 13279852(53119408); kvend = 12676652(50706608); length = 603201/6553600
+2016-12-09 18:34:36 INFO  MapTask:1667 - Finished spill 2
+2016-12-09 18:34:36 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:36 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 18549066 bytes
+2016-12-09 18:34:36 INFO  Job:1367 -  map 86% reduce 0%
+2016-12-09 18:34:36 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:36 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 18576375 bytes
+2016-12-09 18:34:36 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:36 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 18571062 bytes
+2016-12-09 18:34:36 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:36 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 18524262 bytes
+2016-12-09 18:34:36 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:36 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 18564491 bytes
+2016-12-09 18:34:36 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:36 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 18570385 bytes
+2016-12-09 18:34:36 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:36 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 18567461 bytes
+2016-12-09 18:34:37 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:37 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 18547617 bytes
+2016-12-09 18:34:37 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:37 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 18584575 bytes
+2016-12-09 18:34:37 INFO  Merger:606 - Merging 3 sorted segments
+2016-12-09 18:34:37 INFO  Merger:705 - Down to the last merge-pass, with 3 segments left of total size: 18579265 bytes
+2016-12-09 18:34:37 INFO  Task:1038 - Task:attempt_local1940562010_0001_m_000006_0 is done. And is in the process of committing
+2016-12-09 18:34:37 INFO  LocalJobRunner:591 - map > sort
+2016-12-09 18:34:37 INFO  Task:1158 - Task 'attempt_local1940562010_0001_m_000006_0' done.
+2016-12-09 18:34:37 INFO  LocalJobRunner:249 - Finishing task: attempt_local1940562010_0001_m_000006_0
+2016-12-09 18:34:37 INFO  LocalJobRunner:456 - map task executor complete.
+2016-12-09 18:34:37 INFO  LocalJobRunner:448 - Waiting for reduce tasks
+2016-12-09 18:34:37 INFO  LocalJobRunner:302 - Starting task: attempt_local1940562010_0001_r_000000_0
+2016-12-09 18:34:37 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:34:37 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 18:34:37 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 18:34:37 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@46705706
+2016-12-09 18:34:37 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 18:34:37 INFO  EventFetcher:61 - attempt_local1940562010_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 18:34:37 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1940562010_0001_m_000004_0 decomp: 22042068 len: 22042072 to MEMORY
+2016-12-09 18:34:37 INFO  InMemoryMapOutput:100 - Read 22042068 bytes from map-output for attempt_local1940562010_0001_m_000004_0
+2016-12-09 18:34:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22042068, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->22042068
+2016-12-09 18:34:37 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1940562010_0001_m_000001_0 decomp: 22033611 len: 22033615 to MEMORY
+2016-12-09 18:34:37 INFO  InMemoryMapOutput:100 - Read 22033611 bytes from map-output for attempt_local1940562010_0001_m_000001_0
+2016-12-09 18:34:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22033611, inMemoryMapOutputs.size() -> 2, commitMemory -> 22042068, usedMemory ->44075679
+2016-12-09 18:34:37 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1940562010_0001_m_000002_0 decomp: 22063845 len: 22063849 to MEMORY
+2016-12-09 18:34:37 INFO  InMemoryMapOutput:100 - Read 22063845 bytes from map-output for attempt_local1940562010_0001_m_000002_0
+2016-12-09 18:34:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22063845, inMemoryMapOutputs.size() -> 3, commitMemory -> 44075679, usedMemory ->66139524
+2016-12-09 18:34:37 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1940562010_0001_m_000005_0 decomp: 21948862 len: 21948866 to MEMORY
+2016-12-09 18:34:37 INFO  InMemoryMapOutput:100 - Read 21948862 bytes from map-output for attempt_local1940562010_0001_m_000005_0
+2016-12-09 18:34:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 21948862, inMemoryMapOutputs.size() -> 4, commitMemory -> 66139524, usedMemory ->88088386
+2016-12-09 18:34:37 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1940562010_0001_m_000003_0 decomp: 22035554 len: 22035558 to MEMORY
+2016-12-09 18:34:37 INFO  InMemoryMapOutput:100 - Read 22035554 bytes from map-output for attempt_local1940562010_0001_m_000003_0
+2016-12-09 18:34:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22035554, inMemoryMapOutputs.size() -> 5, commitMemory -> 88088386, usedMemory ->110123940
+2016-12-09 18:34:37 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1940562010_0001_m_000000_0 decomp: 22005619 len: 22005623 to MEMORY
+2016-12-09 18:34:37 INFO  InMemoryMapOutput:100 - Read 22005619 bytes from map-output for attempt_local1940562010_0001_m_000000_0
+2016-12-09 18:34:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22005619, inMemoryMapOutputs.size() -> 6, commitMemory -> 110123940, usedMemory ->132129559
+2016-12-09 18:34:37 INFO  LocalFetcher:144 - localfetcher#1 about to shuffle output of map attempt_local1940562010_0001_m_000006_0 decomp: 18549071 len: 18549075 to MEMORY
+2016-12-09 18:34:37 INFO  InMemoryMapOutput:100 - Read 18549071 bytes from map-output for attempt_local1940562010_0001_m_000006_0
+2016-12-09 18:34:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18549071, inMemoryMapOutputs.size() -> 7, commitMemory -> 132129559, usedMemory ->150678630
+2016-12-09 18:34:37 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 18:34:37 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 18:34:37 INFO  MergeManagerImpl:687 - finalMerge called with 7 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 18:34:37 INFO  Merger:606 - Merging 7 sorted segments
+2016-12-09 18:34:37 INFO  Merger:705 - Down to the last merge-pass, with 7 segments left of total size: 150678581 bytes
+2016-12-09 18:34:38 INFO  Job:1367 -  map 100% reduce 0%
+2016-12-09 18:34:38 INFO  MergeManagerImpl:754 - Merged 7 segments, 150678630 bytes to disk to satisfy reduce memory limit
+2016-12-09 18:34:38 INFO  MergeManagerImpl:784 - Merging 1 files, 150678622 bytes from disk
+2016-12-09 18:34:38 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 18:34:38 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 18:34:38 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 150678611 bytes
+2016-12-09 18:34:38 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 18:34:38 INFO  deprecation:1173 - mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2016-12-09 18:34:43 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 18:34:43 INFO  Job:1367 -  map 100% reduce 10%
+2016-12-09 18:43:04 INFO  Task:1038 - Task:attempt_local1940562010_0001_r_000000_0 is done. And is in the process of committing
+2016-12-09 18:43:04 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 18:43:04 INFO  Task:1199 - Task attempt_local1940562010_0001_r_000000_0 is allowed to commit now
+2016-12-09 18:43:04 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1940562010_0001_r_000000_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-train-output/_temporary/0/task_local1940562010_0001_r_000000
+2016-12-09 18:43:04 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 18:43:04 INFO  Task:1158 - Task 'attempt_local1940562010_0001_r_000000_0' done.
+2016-12-09 18:43:04 INFO  LocalJobRunner:325 - Finishing task: attempt_local1940562010_0001_r_000000_0
+2016-12-09 18:43:04 INFO  LocalJobRunner:302 - Starting task: attempt_local1940562010_0001_r_000001_0
+2016-12-09 18:43:04 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:43:04 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 18:43:04 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 18:43:04 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@4026ef93
+2016-12-09 18:43:04 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 18:43:04 INFO  EventFetcher:61 - attempt_local1940562010_0001_r_000001_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 18:43:04 INFO  LocalFetcher:144 - localfetcher#2 about to shuffle output of map attempt_local1940562010_0001_m_000004_0 decomp: 22124450 len: 22124454 to MEMORY
+2016-12-09 18:43:05 INFO  InMemoryMapOutput:100 - Read 22124450 bytes from map-output for attempt_local1940562010_0001_m_000004_0
+2016-12-09 18:43:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22124450, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->22124450
+2016-12-09 18:43:05 INFO  LocalFetcher:144 - localfetcher#2 about to shuffle output of map attempt_local1940562010_0001_m_000001_0 decomp: 22032372 len: 22032376 to MEMORY
+2016-12-09 18:43:05 INFO  InMemoryMapOutput:100 - Read 22032372 bytes from map-output for attempt_local1940562010_0001_m_000001_0
+2016-12-09 18:43:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22032372, inMemoryMapOutputs.size() -> 2, commitMemory -> 22124450, usedMemory ->44156822
+2016-12-09 18:43:05 INFO  LocalFetcher:144 - localfetcher#2 about to shuffle output of map attempt_local1940562010_0001_m_000002_0 decomp: 22144270 len: 22144274 to MEMORY
+2016-12-09 18:43:05 INFO  InMemoryMapOutput:100 - Read 22144270 bytes from map-output for attempt_local1940562010_0001_m_000002_0
+2016-12-09 18:43:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22144270, inMemoryMapOutputs.size() -> 3, commitMemory -> 44156822, usedMemory ->66301092
+2016-12-09 18:43:05 INFO  LocalFetcher:144 - localfetcher#2 about to shuffle output of map attempt_local1940562010_0001_m_000005_0 decomp: 21955068 len: 21955072 to MEMORY
+2016-12-09 18:43:05 INFO  InMemoryMapOutput:100 - Read 21955068 bytes from map-output for attempt_local1940562010_0001_m_000005_0
+2016-12-09 18:43:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 21955068, inMemoryMapOutputs.size() -> 4, commitMemory -> 66301092, usedMemory ->88256160
+2016-12-09 18:43:05 INFO  LocalFetcher:144 - localfetcher#2 about to shuffle output of map attempt_local1940562010_0001_m_000003_0 decomp: 22081033 len: 22081037 to MEMORY
+2016-12-09 18:43:05 INFO  InMemoryMapOutput:100 - Read 22081033 bytes from map-output for attempt_local1940562010_0001_m_000003_0
+2016-12-09 18:43:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22081033, inMemoryMapOutputs.size() -> 5, commitMemory -> 88256160, usedMemory ->110337193
+2016-12-09 18:43:05 INFO  LocalFetcher:144 - localfetcher#2 about to shuffle output of map attempt_local1940562010_0001_m_000000_0 decomp: 22084333 len: 22084337 to MEMORY
+2016-12-09 18:43:05 INFO  InMemoryMapOutput:100 - Read 22084333 bytes from map-output for attempt_local1940562010_0001_m_000000_0
+2016-12-09 18:43:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22084333, inMemoryMapOutputs.size() -> 6, commitMemory -> 110337193, usedMemory ->132421526
+2016-12-09 18:43:05 INFO  LocalFetcher:144 - localfetcher#2 about to shuffle output of map attempt_local1940562010_0001_m_000006_0 decomp: 18576380 len: 18576384 to MEMORY
+2016-12-09 18:43:05 INFO  InMemoryMapOutput:100 - Read 18576380 bytes from map-output for attempt_local1940562010_0001_m_000006_0
+2016-12-09 18:43:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18576380, inMemoryMapOutputs.size() -> 7, commitMemory -> 132421526, usedMemory ->150997906
+2016-12-09 18:43:05 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 18:43:05 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 18:43:05 INFO  MergeManagerImpl:687 - finalMerge called with 7 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 18:43:05 INFO  Merger:606 - Merging 7 sorted segments
+2016-12-09 18:43:05 INFO  Merger:705 - Down to the last merge-pass, with 7 segments left of total size: 150997861 bytes
+2016-12-09 18:43:05 INFO  MergeManagerImpl:754 - Merged 7 segments, 150997906 bytes to disk to satisfy reduce memory limit
+2016-12-09 18:43:05 INFO  MergeManagerImpl:784 - Merging 1 files, 150997898 bytes from disk
+2016-12-09 18:43:05 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 18:43:05 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 18:43:05 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 150997887 bytes
+2016-12-09 18:43:05 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 18:43:10 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 18:43:11 INFO  Job:1367 -  map 100% reduce 20%
+2016-12-09 18:51:47 INFO  Task:1038 - Task:attempt_local1940562010_0001_r_000001_0 is done. And is in the process of committing
+2016-12-09 18:51:47 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 18:51:47 INFO  Task:1199 - Task attempt_local1940562010_0001_r_000001_0 is allowed to commit now
+2016-12-09 18:51:47 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1940562010_0001_r_000001_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-train-output/_temporary/0/task_local1940562010_0001_r_000001
+2016-12-09 18:51:47 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 18:51:47 INFO  Task:1158 - Task 'attempt_local1940562010_0001_r_000001_0' done.
+2016-12-09 18:51:47 INFO  LocalJobRunner:325 - Finishing task: attempt_local1940562010_0001_r_000001_0
+2016-12-09 18:51:47 INFO  LocalJobRunner:302 - Starting task: attempt_local1940562010_0001_r_000002_0
+2016-12-09 18:51:47 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 18:51:47 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 18:51:47 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 18:51:47 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@6e8a3bf2
+2016-12-09 18:51:47 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 18:51:47 INFO  EventFetcher:61 - attempt_local1940562010_0001_r_000002_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 18:51:47 INFO  LocalFetcher:144 - localfetcher#3 about to shuffle output of map attempt_local1940562010_0001_m_000004_0 decomp: 22109947 len: 22109951 to MEMORY
+2016-12-09 18:51:47 INFO  InMemoryMapOutput:100 - Read 22109947 bytes from map-output for attempt_local1940562010_0001_m_000004_0
+2016-12-09 18:51:47 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22109947, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->22109947
+2016-12-09 18:51:47 INFO  LocalFetcher:144 - localfetcher#3 about to shuffle output of map attempt_local1940562010_0001_m_000001_0 decomp: 22002845 len: 22002849 to MEMORY
+2016-12-09 18:51:47 INFO  InMemoryMapOutput:100 - Read 22002845 bytes from map-output for attempt_local1940562010_0001_m_000001_0
+2016-12-09 18:51:47 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22002845, inMemoryMapOutputs.size() -> 2, commitMemory -> 22109947, usedMemory ->44112792
+2016-12-09 18:51:47 INFO  LocalFetcher:144 - localfetcher#3 about to shuffle output of map attempt_local1940562010_0001_m_000002_0 decomp: 22061361 len: 22061365 to MEMORY
+2016-12-09 18:51:47 INFO  InMemoryMapOutput:100 - Read 22061361 bytes from map-output for attempt_local1940562010_0001_m_000002_0
+2016-12-09 18:51:47 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22061361, inMemoryMapOutputs.size() -> 3, commitMemory -> 44112792, usedMemory ->66174153
+2016-12-09 18:51:47 INFO  LocalFetcher:144 - localfetcher#3 about to shuffle output of map attempt_local1940562010_0001_m_000005_0 decomp: 21987850 len: 21987854 to MEMORY
+2016-12-09 18:51:47 INFO  InMemoryMapOutput:100 - Read 21987850 bytes from map-output for attempt_local1940562010_0001_m_000005_0
+2016-12-09 18:51:47 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 21987850, inMemoryMapOutputs.size() -> 4, commitMemory -> 66174153, usedMemory ->88162003
+2016-12-09 18:51:47 INFO  LocalFetcher:144 - localfetcher#3 about to shuffle output of map attempt_local1940562010_0001_m_000003_0 decomp: 22037479 len: 22037483 to MEMORY
+2016-12-09 18:51:47 INFO  InMemoryMapOutput:100 - Read 22037479 bytes from map-output for attempt_local1940562010_0001_m_000003_0
+2016-12-09 18:51:47 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22037479, inMemoryMapOutputs.size() -> 5, commitMemory -> 88162003, usedMemory ->110199482
+2016-12-09 18:51:47 INFO  LocalFetcher:144 - localfetcher#3 about to shuffle output of map attempt_local1940562010_0001_m_000000_0 decomp: 22037925 len: 22037929 to MEMORY
+2016-12-09 18:51:47 INFO  InMemoryMapOutput:100 - Read 22037925 bytes from map-output for attempt_local1940562010_0001_m_000000_0
+2016-12-09 18:51:47 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22037925, inMemoryMapOutputs.size() -> 6, commitMemory -> 110199482, usedMemory ->132237407
+2016-12-09 18:51:47 INFO  LocalFetcher:144 - localfetcher#3 about to shuffle output of map attempt_local1940562010_0001_m_000006_0 decomp: 18571067 len: 18571071 to MEMORY
+2016-12-09 18:51:47 INFO  InMemoryMapOutput:100 - Read 18571067 bytes from map-output for attempt_local1940562010_0001_m_000006_0
+2016-12-09 18:51:47 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18571067, inMemoryMapOutputs.size() -> 7, commitMemory -> 132237407, usedMemory ->150808474
+2016-12-09 18:51:47 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 18:51:47 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 18:51:47 INFO  MergeManagerImpl:687 - finalMerge called with 7 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 18:51:47 INFO  Merger:606 - Merging 7 sorted segments
+2016-12-09 18:51:47 INFO  Merger:705 - Down to the last merge-pass, with 7 segments left of total size: 150808427 bytes
+2016-12-09 18:51:48 INFO  MergeManagerImpl:754 - Merged 7 segments, 150808474 bytes to disk to satisfy reduce memory limit
+2016-12-09 18:51:48 INFO  MergeManagerImpl:784 - Merging 1 files, 150808466 bytes from disk
+2016-12-09 18:51:48 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 18:51:48 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 18:51:48 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 150808456 bytes
+2016-12-09 18:51:48 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 18:51:53 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 18:51:54 INFO  Job:1367 -  map 100% reduce 30%
+2016-12-09 19:00:21 INFO  Task:1038 - Task:attempt_local1940562010_0001_r_000002_0 is done. And is in the process of committing
+2016-12-09 19:00:21 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:00:21 INFO  Task:1199 - Task attempt_local1940562010_0001_r_000002_0 is allowed to commit now
+2016-12-09 19:00:21 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1940562010_0001_r_000002_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-train-output/_temporary/0/task_local1940562010_0001_r_000002
+2016-12-09 19:00:21 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:00:21 INFO  Task:1158 - Task 'attempt_local1940562010_0001_r_000002_0' done.
+2016-12-09 19:00:21 INFO  LocalJobRunner:325 - Finishing task: attempt_local1940562010_0001_r_000002_0
+2016-12-09 19:00:21 INFO  LocalJobRunner:302 - Starting task: attempt_local1940562010_0001_r_000003_0
+2016-12-09 19:00:21 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 19:00:21 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 19:00:21 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 19:00:21 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@63eccc03
+2016-12-09 19:00:21 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 19:00:21 INFO  EventFetcher:61 - attempt_local1940562010_0001_r_000003_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 19:00:21 INFO  LocalFetcher:144 - localfetcher#4 about to shuffle output of map attempt_local1940562010_0001_m_000004_0 decomp: 22144742 len: 22144746 to MEMORY
+2016-12-09 19:00:21 INFO  InMemoryMapOutput:100 - Read 22144742 bytes from map-output for attempt_local1940562010_0001_m_000004_0
+2016-12-09 19:00:21 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22144742, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->22144742
+2016-12-09 19:00:21 INFO  LocalFetcher:144 - localfetcher#4 about to shuffle output of map attempt_local1940562010_0001_m_000001_0 decomp: 22034423 len: 22034427 to MEMORY
+2016-12-09 19:00:21 INFO  InMemoryMapOutput:100 - Read 22034423 bytes from map-output for attempt_local1940562010_0001_m_000001_0
+2016-12-09 19:00:21 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22034423, inMemoryMapOutputs.size() -> 2, commitMemory -> 22144742, usedMemory ->44179165
+2016-12-09 19:00:21 INFO  LocalFetcher:144 - localfetcher#4 about to shuffle output of map attempt_local1940562010_0001_m_000002_0 decomp: 22079163 len: 22079167 to MEMORY
+2016-12-09 19:00:21 INFO  InMemoryMapOutput:100 - Read 22079163 bytes from map-output for attempt_local1940562010_0001_m_000002_0
+2016-12-09 19:00:21 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22079163, inMemoryMapOutputs.size() -> 3, commitMemory -> 44179165, usedMemory ->66258328
+2016-12-09 19:00:21 INFO  LocalFetcher:144 - localfetcher#4 about to shuffle output of map attempt_local1940562010_0001_m_000005_0 decomp: 22027906 len: 22027910 to MEMORY
+2016-12-09 19:00:21 INFO  InMemoryMapOutput:100 - Read 22027906 bytes from map-output for attempt_local1940562010_0001_m_000005_0
+2016-12-09 19:00:21 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22027906, inMemoryMapOutputs.size() -> 4, commitMemory -> 66258328, usedMemory ->88286234
+2016-12-09 19:00:21 INFO  LocalFetcher:144 - localfetcher#4 about to shuffle output of map attempt_local1940562010_0001_m_000003_0 decomp: 22097781 len: 22097785 to MEMORY
+2016-12-09 19:00:21 INFO  InMemoryMapOutput:100 - Read 22097781 bytes from map-output for attempt_local1940562010_0001_m_000003_0
+2016-12-09 19:00:21 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22097781, inMemoryMapOutputs.size() -> 5, commitMemory -> 88286234, usedMemory ->110384015
+2016-12-09 19:00:21 INFO  LocalFetcher:144 - localfetcher#4 about to shuffle output of map attempt_local1940562010_0001_m_000000_0 decomp: 21972182 len: 21972186 to MEMORY
+2016-12-09 19:00:21 INFO  InMemoryMapOutput:100 - Read 21972182 bytes from map-output for attempt_local1940562010_0001_m_000000_0
+2016-12-09 19:00:21 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 21972182, inMemoryMapOutputs.size() -> 6, commitMemory -> 110384015, usedMemory ->132356197
+2016-12-09 19:00:21 INFO  LocalFetcher:144 - localfetcher#4 about to shuffle output of map attempt_local1940562010_0001_m_000006_0 decomp: 18524266 len: 18524270 to MEMORY
+2016-12-09 19:00:21 INFO  InMemoryMapOutput:100 - Read 18524266 bytes from map-output for attempt_local1940562010_0001_m_000006_0
+2016-12-09 19:00:21 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18524266, inMemoryMapOutputs.size() -> 7, commitMemory -> 132356197, usedMemory ->150880463
+2016-12-09 19:00:21 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 19:00:21 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:00:21 INFO  MergeManagerImpl:687 - finalMerge called with 7 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 19:00:21 INFO  Merger:606 - Merging 7 sorted segments
+2016-12-09 19:00:21 INFO  Merger:705 - Down to the last merge-pass, with 7 segments left of total size: 150880414 bytes
+2016-12-09 19:00:22 INFO  MergeManagerImpl:754 - Merged 7 segments, 150880463 bytes to disk to satisfy reduce memory limit
+2016-12-09 19:00:22 INFO  MergeManagerImpl:784 - Merging 1 files, 150880455 bytes from disk
+2016-12-09 19:00:22 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 19:00:22 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 19:00:22 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 150880444 bytes
+2016-12-09 19:00:22 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:00:27 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:00:28 INFO  Job:1367 -  map 100% reduce 40%
+2016-12-09 19:09:05 INFO  Task:1038 - Task:attempt_local1940562010_0001_r_000003_0 is done. And is in the process of committing
+2016-12-09 19:09:05 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:09:05 INFO  Task:1199 - Task attempt_local1940562010_0001_r_000003_0 is allowed to commit now
+2016-12-09 19:09:05 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1940562010_0001_r_000003_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-train-output/_temporary/0/task_local1940562010_0001_r_000003
+2016-12-09 19:09:05 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:09:05 INFO  Task:1158 - Task 'attempt_local1940562010_0001_r_000003_0' done.
+2016-12-09 19:09:05 INFO  LocalJobRunner:325 - Finishing task: attempt_local1940562010_0001_r_000003_0
+2016-12-09 19:09:05 INFO  LocalJobRunner:302 - Starting task: attempt_local1940562010_0001_r_000004_0
+2016-12-09 19:09:05 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 19:09:05 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 19:09:05 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 19:09:05 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@9427fe2
+2016-12-09 19:09:05 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 19:09:05 INFO  EventFetcher:61 - attempt_local1940562010_0001_r_000004_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 19:09:05 INFO  LocalFetcher:144 - localfetcher#5 about to shuffle output of map attempt_local1940562010_0001_m_000004_0 decomp: 22042416 len: 22042420 to MEMORY
+2016-12-09 19:09:05 INFO  InMemoryMapOutput:100 - Read 22042416 bytes from map-output for attempt_local1940562010_0001_m_000004_0
+2016-12-09 19:09:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22042416, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->22042416
+2016-12-09 19:09:05 INFO  LocalFetcher:144 - localfetcher#5 about to shuffle output of map attempt_local1940562010_0001_m_000001_0 decomp: 22052387 len: 22052391 to MEMORY
+2016-12-09 19:09:05 INFO  InMemoryMapOutput:100 - Read 22052387 bytes from map-output for attempt_local1940562010_0001_m_000001_0
+2016-12-09 19:09:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22052387, inMemoryMapOutputs.size() -> 2, commitMemory -> 22042416, usedMemory ->44094803
+2016-12-09 19:09:05 INFO  LocalFetcher:144 - localfetcher#5 about to shuffle output of map attempt_local1940562010_0001_m_000002_0 decomp: 22075543 len: 22075547 to MEMORY
+2016-12-09 19:09:05 INFO  InMemoryMapOutput:100 - Read 22075543 bytes from map-output for attempt_local1940562010_0001_m_000002_0
+2016-12-09 19:09:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22075543, inMemoryMapOutputs.size() -> 3, commitMemory -> 44094803, usedMemory ->66170346
+2016-12-09 19:09:05 INFO  LocalFetcher:144 - localfetcher#5 about to shuffle output of map attempt_local1940562010_0001_m_000005_0 decomp: 21998020 len: 21998024 to MEMORY
+2016-12-09 19:09:05 INFO  InMemoryMapOutput:100 - Read 21998020 bytes from map-output for attempt_local1940562010_0001_m_000005_0
+2016-12-09 19:09:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 21998020, inMemoryMapOutputs.size() -> 4, commitMemory -> 66170346, usedMemory ->88168366
+2016-12-09 19:09:05 INFO  LocalFetcher:144 - localfetcher#5 about to shuffle output of map attempt_local1940562010_0001_m_000003_0 decomp: 22083481 len: 22083485 to MEMORY
+2016-12-09 19:09:05 INFO  InMemoryMapOutput:100 - Read 22083481 bytes from map-output for attempt_local1940562010_0001_m_000003_0
+2016-12-09 19:09:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22083481, inMemoryMapOutputs.size() -> 5, commitMemory -> 88168366, usedMemory ->110251847
+2016-12-09 19:09:05 INFO  LocalFetcher:144 - localfetcher#5 about to shuffle output of map attempt_local1940562010_0001_m_000000_0 decomp: 22033642 len: 22033646 to MEMORY
+2016-12-09 19:09:05 INFO  InMemoryMapOutput:100 - Read 22033642 bytes from map-output for attempt_local1940562010_0001_m_000000_0
+2016-12-09 19:09:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22033642, inMemoryMapOutputs.size() -> 6, commitMemory -> 110251847, usedMemory ->132285489
+2016-12-09 19:09:05 INFO  LocalFetcher:144 - localfetcher#5 about to shuffle output of map attempt_local1940562010_0001_m_000006_0 decomp: 18564495 len: 18564499 to MEMORY
+2016-12-09 19:09:05 INFO  InMemoryMapOutput:100 - Read 18564495 bytes from map-output for attempt_local1940562010_0001_m_000006_0
+2016-12-09 19:09:05 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18564495, inMemoryMapOutputs.size() -> 7, commitMemory -> 132285489, usedMemory ->150849984
+2016-12-09 19:09:05 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 19:09:05 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:09:05 INFO  MergeManagerImpl:687 - finalMerge called with 7 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 19:09:05 INFO  Merger:606 - Merging 7 sorted segments
+2016-12-09 19:09:05 INFO  Merger:705 - Down to the last merge-pass, with 7 segments left of total size: 150849936 bytes
+2016-12-09 19:09:06 INFO  MergeManagerImpl:754 - Merged 7 segments, 150849984 bytes to disk to satisfy reduce memory limit
+2016-12-09 19:09:06 INFO  MergeManagerImpl:784 - Merging 1 files, 150849976 bytes from disk
+2016-12-09 19:09:06 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 19:09:06 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 19:09:06 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 150849965 bytes
+2016-12-09 19:09:06 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:09:12 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:09:13 INFO  Job:1367 -  map 100% reduce 50%
+2016-12-09 19:17:31 INFO  Task:1038 - Task:attempt_local1940562010_0001_r_000004_0 is done. And is in the process of committing
+2016-12-09 19:17:31 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:17:31 INFO  Task:1199 - Task attempt_local1940562010_0001_r_000004_0 is allowed to commit now
+2016-12-09 19:17:31 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1940562010_0001_r_000004_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-train-output/_temporary/0/task_local1940562010_0001_r_000004
+2016-12-09 19:17:31 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:17:31 INFO  Task:1158 - Task 'attempt_local1940562010_0001_r_000004_0' done.
+2016-12-09 19:17:31 INFO  LocalJobRunner:325 - Finishing task: attempt_local1940562010_0001_r_000004_0
+2016-12-09 19:17:31 INFO  LocalJobRunner:302 - Starting task: attempt_local1940562010_0001_r_000005_0
+2016-12-09 19:17:31 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 19:17:31 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 19:17:31 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 19:17:31 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@1c4d3dc3
+2016-12-09 19:17:31 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 19:17:31 INFO  EventFetcher:61 - attempt_local1940562010_0001_r_000005_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 19:17:31 INFO  LocalFetcher:144 - localfetcher#6 about to shuffle output of map attempt_local1940562010_0001_m_000004_0 decomp: 22128485 len: 22128489 to MEMORY
+2016-12-09 19:17:31 INFO  InMemoryMapOutput:100 - Read 22128485 bytes from map-output for attempt_local1940562010_0001_m_000004_0
+2016-12-09 19:17:31 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22128485, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->22128485
+2016-12-09 19:17:31 INFO  LocalFetcher:144 - localfetcher#6 about to shuffle output of map attempt_local1940562010_0001_m_000001_0 decomp: 21978365 len: 21978369 to MEMORY
+2016-12-09 19:17:31 INFO  InMemoryMapOutput:100 - Read 21978365 bytes from map-output for attempt_local1940562010_0001_m_000001_0
+2016-12-09 19:17:31 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 21978365, inMemoryMapOutputs.size() -> 2, commitMemory -> 22128485, usedMemory ->44106850
+2016-12-09 19:17:31 INFO  LocalFetcher:144 - localfetcher#6 about to shuffle output of map attempt_local1940562010_0001_m_000002_0 decomp: 22061363 len: 22061367 to MEMORY
+2016-12-09 19:17:31 INFO  InMemoryMapOutput:100 - Read 22061363 bytes from map-output for attempt_local1940562010_0001_m_000002_0
+2016-12-09 19:17:31 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22061363, inMemoryMapOutputs.size() -> 3, commitMemory -> 44106850, usedMemory ->66168213
+2016-12-09 19:17:31 INFO  LocalFetcher:144 - localfetcher#6 about to shuffle output of map attempt_local1940562010_0001_m_000005_0 decomp: 22017608 len: 22017612 to MEMORY
+2016-12-09 19:17:31 INFO  InMemoryMapOutput:100 - Read 22017608 bytes from map-output for attempt_local1940562010_0001_m_000005_0
+2016-12-09 19:17:31 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22017608, inMemoryMapOutputs.size() -> 4, commitMemory -> 66168213, usedMemory ->88185821
+2016-12-09 19:17:31 INFO  LocalFetcher:144 - localfetcher#6 about to shuffle output of map attempt_local1940562010_0001_m_000003_0 decomp: 22136409 len: 22136413 to MEMORY
+2016-12-09 19:17:31 INFO  InMemoryMapOutput:100 - Read 22136409 bytes from map-output for attempt_local1940562010_0001_m_000003_0
+2016-12-09 19:17:31 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22136409, inMemoryMapOutputs.size() -> 5, commitMemory -> 88185821, usedMemory ->110322230
+2016-12-09 19:17:31 INFO  LocalFetcher:144 - localfetcher#6 about to shuffle output of map attempt_local1940562010_0001_m_000000_0 decomp: 22060151 len: 22060155 to MEMORY
+2016-12-09 19:17:31 INFO  InMemoryMapOutput:100 - Read 22060151 bytes from map-output for attempt_local1940562010_0001_m_000000_0
+2016-12-09 19:17:31 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22060151, inMemoryMapOutputs.size() -> 6, commitMemory -> 110322230, usedMemory ->132382381
+2016-12-09 19:17:31 INFO  LocalFetcher:144 - localfetcher#6 about to shuffle output of map attempt_local1940562010_0001_m_000006_0 decomp: 18570389 len: 18570393 to MEMORY
+2016-12-09 19:17:31 INFO  InMemoryMapOutput:100 - Read 18570389 bytes from map-output for attempt_local1940562010_0001_m_000006_0
+2016-12-09 19:17:31 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18570389, inMemoryMapOutputs.size() -> 7, commitMemory -> 132382381, usedMemory ->150952770
+2016-12-09 19:17:31 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 19:17:31 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:17:31 INFO  MergeManagerImpl:687 - finalMerge called with 7 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 19:17:31 INFO  Merger:606 - Merging 7 sorted segments
+2016-12-09 19:17:31 INFO  Merger:705 - Down to the last merge-pass, with 7 segments left of total size: 150952720 bytes
+2016-12-09 19:17:31 INFO  MergeManagerImpl:754 - Merged 7 segments, 150952770 bytes to disk to satisfy reduce memory limit
+2016-12-09 19:17:31 INFO  MergeManagerImpl:784 - Merging 1 files, 150952762 bytes from disk
+2016-12-09 19:17:31 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 19:17:31 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 19:17:31 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 150952751 bytes
+2016-12-09 19:17:31 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:17:38 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:17:39 INFO  Job:1367 -  map 100% reduce 60%
+2016-12-09 19:25:06 INFO  Task:1038 - Task:attempt_local1940562010_0001_r_000005_0 is done. And is in the process of committing
+2016-12-09 19:25:06 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:25:06 INFO  Task:1199 - Task attempt_local1940562010_0001_r_000005_0 is allowed to commit now
+2016-12-09 19:25:06 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1940562010_0001_r_000005_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-train-output/_temporary/0/task_local1940562010_0001_r_000005
+2016-12-09 19:25:06 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:25:06 INFO  Task:1158 - Task 'attempt_local1940562010_0001_r_000005_0' done.
+2016-12-09 19:25:06 INFO  LocalJobRunner:325 - Finishing task: attempt_local1940562010_0001_r_000005_0
+2016-12-09 19:25:06 INFO  LocalJobRunner:302 - Starting task: attempt_local1940562010_0001_r_000006_0
+2016-12-09 19:25:06 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 19:25:06 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 19:25:06 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 19:25:06 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@17336201
+2016-12-09 19:25:06 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 19:25:06 INFO  EventFetcher:61 - attempt_local1940562010_0001_r_000006_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 19:25:06 INFO  LocalFetcher:144 - localfetcher#7 about to shuffle output of map attempt_local1940562010_0001_m_000004_0 decomp: 22068955 len: 22068959 to MEMORY
+2016-12-09 19:25:06 INFO  InMemoryMapOutput:100 - Read 22068955 bytes from map-output for attempt_local1940562010_0001_m_000004_0
+2016-12-09 19:25:06 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22068955, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->22068955
+2016-12-09 19:25:06 INFO  LocalFetcher:144 - localfetcher#7 about to shuffle output of map attempt_local1940562010_0001_m_000001_0 decomp: 22064056 len: 22064060 to MEMORY
+2016-12-09 19:25:06 INFO  InMemoryMapOutput:100 - Read 22064056 bytes from map-output for attempt_local1940562010_0001_m_000001_0
+2016-12-09 19:25:06 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22064056, inMemoryMapOutputs.size() -> 2, commitMemory -> 22068955, usedMemory ->44133011
+2016-12-09 19:25:06 INFO  LocalFetcher:144 - localfetcher#7 about to shuffle output of map attempt_local1940562010_0001_m_000002_0 decomp: 22054207 len: 22054211 to MEMORY
+2016-12-09 19:25:06 INFO  InMemoryMapOutput:100 - Read 22054207 bytes from map-output for attempt_local1940562010_0001_m_000002_0
+2016-12-09 19:25:06 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22054207, inMemoryMapOutputs.size() -> 3, commitMemory -> 44133011, usedMemory ->66187218
+2016-12-09 19:25:06 INFO  LocalFetcher:144 - localfetcher#7 about to shuffle output of map attempt_local1940562010_0001_m_000005_0 decomp: 21974856 len: 21974860 to MEMORY
+2016-12-09 19:25:06 INFO  InMemoryMapOutput:100 - Read 21974856 bytes from map-output for attempt_local1940562010_0001_m_000005_0
+2016-12-09 19:25:06 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 21974856, inMemoryMapOutputs.size() -> 4, commitMemory -> 66187218, usedMemory ->88162074
+2016-12-09 19:25:06 INFO  LocalFetcher:144 - localfetcher#7 about to shuffle output of map attempt_local1940562010_0001_m_000003_0 decomp: 22161554 len: 22161558 to MEMORY
+2016-12-09 19:25:06 INFO  InMemoryMapOutput:100 - Read 22161554 bytes from map-output for attempt_local1940562010_0001_m_000003_0
+2016-12-09 19:25:06 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22161554, inMemoryMapOutputs.size() -> 5, commitMemory -> 88162074, usedMemory ->110323628
+2016-12-09 19:25:06 INFO  LocalFetcher:144 - localfetcher#7 about to shuffle output of map attempt_local1940562010_0001_m_000000_0 decomp: 22128267 len: 22128271 to MEMORY
+2016-12-09 19:25:06 INFO  InMemoryMapOutput:100 - Read 22128267 bytes from map-output for attempt_local1940562010_0001_m_000000_0
+2016-12-09 19:25:06 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22128267, inMemoryMapOutputs.size() -> 6, commitMemory -> 110323628, usedMemory ->132451895
+2016-12-09 19:25:06 INFO  LocalFetcher:144 - localfetcher#7 about to shuffle output of map attempt_local1940562010_0001_m_000006_0 decomp: 18567465 len: 18567469 to MEMORY
+2016-12-09 19:25:06 INFO  InMemoryMapOutput:100 - Read 18567465 bytes from map-output for attempt_local1940562010_0001_m_000006_0
+2016-12-09 19:25:06 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18567465, inMemoryMapOutputs.size() -> 7, commitMemory -> 132451895, usedMemory ->151019360
+2016-12-09 19:25:06 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 19:25:06 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:25:06 INFO  MergeManagerImpl:687 - finalMerge called with 7 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 19:25:06 INFO  Merger:606 - Merging 7 sorted segments
+2016-12-09 19:25:06 INFO  Merger:705 - Down to the last merge-pass, with 7 segments left of total size: 151019312 bytes
+2016-12-09 19:25:06 INFO  MergeManagerImpl:754 - Merged 7 segments, 151019360 bytes to disk to satisfy reduce memory limit
+2016-12-09 19:25:06 INFO  MergeManagerImpl:784 - Merging 1 files, 151019352 bytes from disk
+2016-12-09 19:25:06 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 19:25:06 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 19:25:06 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 151019341 bytes
+2016-12-09 19:25:06 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:25:12 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:25:12 INFO  Job:1367 -  map 100% reduce 70%
+2016-12-09 19:33:44 INFO  Task:1038 - Task:attempt_local1940562010_0001_r_000006_0 is done. And is in the process of committing
+2016-12-09 19:33:44 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:33:44 INFO  Task:1199 - Task attempt_local1940562010_0001_r_000006_0 is allowed to commit now
+2016-12-09 19:33:44 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1940562010_0001_r_000006_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-train-output/_temporary/0/task_local1940562010_0001_r_000006
+2016-12-09 19:33:44 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:33:44 INFO  Task:1158 - Task 'attempt_local1940562010_0001_r_000006_0' done.
+2016-12-09 19:33:44 INFO  LocalJobRunner:325 - Finishing task: attempt_local1940562010_0001_r_000006_0
+2016-12-09 19:33:44 INFO  LocalJobRunner:302 - Starting task: attempt_local1940562010_0001_r_000007_0
+2016-12-09 19:33:44 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 19:33:44 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 19:33:44 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 19:33:44 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@44dc688f
+2016-12-09 19:33:44 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 19:33:44 INFO  EventFetcher:61 - attempt_local1940562010_0001_r_000007_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 19:33:44 INFO  LocalFetcher:144 - localfetcher#8 about to shuffle output of map attempt_local1940562010_0001_m_000004_0 decomp: 22109157 len: 22109161 to MEMORY
+2016-12-09 19:33:44 INFO  InMemoryMapOutput:100 - Read 22109157 bytes from map-output for attempt_local1940562010_0001_m_000004_0
+2016-12-09 19:33:44 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22109157, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->22109157
+2016-12-09 19:33:44 INFO  LocalFetcher:144 - localfetcher#8 about to shuffle output of map attempt_local1940562010_0001_m_000001_0 decomp: 21995648 len: 21995652 to MEMORY
+2016-12-09 19:33:44 INFO  InMemoryMapOutput:100 - Read 21995648 bytes from map-output for attempt_local1940562010_0001_m_000001_0
+2016-12-09 19:33:44 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 21995648, inMemoryMapOutputs.size() -> 2, commitMemory -> 22109157, usedMemory ->44104805
+2016-12-09 19:33:44 INFO  LocalFetcher:144 - localfetcher#8 about to shuffle output of map attempt_local1940562010_0001_m_000002_0 decomp: 22037823 len: 22037827 to MEMORY
+2016-12-09 19:33:44 INFO  InMemoryMapOutput:100 - Read 22037823 bytes from map-output for attempt_local1940562010_0001_m_000002_0
+2016-12-09 19:33:44 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22037823, inMemoryMapOutputs.size() -> 3, commitMemory -> 44104805, usedMemory ->66142628
+2016-12-09 19:33:44 INFO  LocalFetcher:144 - localfetcher#8 about to shuffle output of map attempt_local1940562010_0001_m_000005_0 decomp: 22041546 len: 22041550 to MEMORY
+2016-12-09 19:33:44 INFO  InMemoryMapOutput:100 - Read 22041546 bytes from map-output for attempt_local1940562010_0001_m_000005_0
+2016-12-09 19:33:44 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22041546, inMemoryMapOutputs.size() -> 4, commitMemory -> 66142628, usedMemory ->88184174
+2016-12-09 19:33:44 INFO  LocalFetcher:144 - localfetcher#8 about to shuffle output of map attempt_local1940562010_0001_m_000003_0 decomp: 22045316 len: 22045320 to MEMORY
+2016-12-09 19:33:44 INFO  InMemoryMapOutput:100 - Read 22045316 bytes from map-output for attempt_local1940562010_0001_m_000003_0
+2016-12-09 19:33:44 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22045316, inMemoryMapOutputs.size() -> 5, commitMemory -> 88184174, usedMemory ->110229490
+2016-12-09 19:33:44 INFO  LocalFetcher:144 - localfetcher#8 about to shuffle output of map attempt_local1940562010_0001_m_000000_0 decomp: 22012094 len: 22012098 to MEMORY
+2016-12-09 19:33:44 INFO  InMemoryMapOutput:100 - Read 22012094 bytes from map-output for attempt_local1940562010_0001_m_000000_0
+2016-12-09 19:33:44 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22012094, inMemoryMapOutputs.size() -> 6, commitMemory -> 110229490, usedMemory ->132241584
+2016-12-09 19:33:44 INFO  LocalFetcher:144 - localfetcher#8 about to shuffle output of map attempt_local1940562010_0001_m_000006_0 decomp: 18547622 len: 18547626 to MEMORY
+2016-12-09 19:33:44 INFO  InMemoryMapOutput:100 - Read 18547622 bytes from map-output for attempt_local1940562010_0001_m_000006_0
+2016-12-09 19:33:44 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18547622, inMemoryMapOutputs.size() -> 7, commitMemory -> 132241584, usedMemory ->150789206
+2016-12-09 19:33:44 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 19:33:44 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:33:44 INFO  MergeManagerImpl:687 - finalMerge called with 7 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 19:33:44 INFO  Merger:606 - Merging 7 sorted segments
+2016-12-09 19:33:44 INFO  Merger:705 - Down to the last merge-pass, with 7 segments left of total size: 150789159 bytes
+2016-12-09 19:33:45 INFO  MergeManagerImpl:754 - Merged 7 segments, 150789206 bytes to disk to satisfy reduce memory limit
+2016-12-09 19:33:45 INFO  MergeManagerImpl:784 - Merging 1 files, 150789198 bytes from disk
+2016-12-09 19:33:45 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 19:33:45 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 19:33:45 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 150789187 bytes
+2016-12-09 19:33:45 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:33:50 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:33:50 INFO  Job:1367 -  map 100% reduce 80%
+2016-12-09 19:41:04 INFO  Task:1038 - Task:attempt_local1940562010_0001_r_000007_0 is done. And is in the process of committing
+2016-12-09 19:41:04 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:41:04 INFO  Task:1199 - Task attempt_local1940562010_0001_r_000007_0 is allowed to commit now
+2016-12-09 19:41:04 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1940562010_0001_r_000007_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-train-output/_temporary/0/task_local1940562010_0001_r_000007
+2016-12-09 19:41:04 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:41:04 INFO  Task:1158 - Task 'attempt_local1940562010_0001_r_000007_0' done.
+2016-12-09 19:41:04 INFO  LocalJobRunner:325 - Finishing task: attempt_local1940562010_0001_r_000007_0
+2016-12-09 19:41:04 INFO  LocalJobRunner:302 - Starting task: attempt_local1940562010_0001_r_000008_0
+2016-12-09 19:41:04 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 19:41:04 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 19:41:04 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 19:41:04 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@40bb46a0
+2016-12-09 19:41:04 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 19:41:04 INFO  EventFetcher:61 - attempt_local1940562010_0001_r_000008_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 19:41:04 INFO  LocalFetcher:144 - localfetcher#9 about to shuffle output of map attempt_local1940562010_0001_m_000004_0 decomp: 22109301 len: 22109305 to MEMORY
+2016-12-09 19:41:04 INFO  InMemoryMapOutput:100 - Read 22109301 bytes from map-output for attempt_local1940562010_0001_m_000004_0
+2016-12-09 19:41:04 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22109301, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->22109301
+2016-12-09 19:41:04 INFO  LocalFetcher:144 - localfetcher#9 about to shuffle output of map attempt_local1940562010_0001_m_000001_0 decomp: 22053066 len: 22053070 to MEMORY
+2016-12-09 19:41:04 INFO  InMemoryMapOutput:100 - Read 22053066 bytes from map-output for attempt_local1940562010_0001_m_000001_0
+2016-12-09 19:41:04 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22053066, inMemoryMapOutputs.size() -> 2, commitMemory -> 22109301, usedMemory ->44162367
+2016-12-09 19:41:04 INFO  LocalFetcher:144 - localfetcher#9 about to shuffle output of map attempt_local1940562010_0001_m_000002_0 decomp: 22065156 len: 22065160 to MEMORY
+2016-12-09 19:41:04 INFO  InMemoryMapOutput:100 - Read 22065156 bytes from map-output for attempt_local1940562010_0001_m_000002_0
+2016-12-09 19:41:04 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22065156, inMemoryMapOutputs.size() -> 3, commitMemory -> 44162367, usedMemory ->66227523
+2016-12-09 19:41:04 INFO  LocalFetcher:144 - localfetcher#9 about to shuffle output of map attempt_local1940562010_0001_m_000005_0 decomp: 21928381 len: 21928385 to MEMORY
+2016-12-09 19:41:04 INFO  InMemoryMapOutput:100 - Read 21928381 bytes from map-output for attempt_local1940562010_0001_m_000005_0
+2016-12-09 19:41:04 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 21928381, inMemoryMapOutputs.size() -> 4, commitMemory -> 66227523, usedMemory ->88155904
+2016-12-09 19:41:04 INFO  LocalFetcher:144 - localfetcher#9 about to shuffle output of map attempt_local1940562010_0001_m_000003_0 decomp: 22127186 len: 22127190 to MEMORY
+2016-12-09 19:41:04 INFO  InMemoryMapOutput:100 - Read 22127186 bytes from map-output for attempt_local1940562010_0001_m_000003_0
+2016-12-09 19:41:04 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22127186, inMemoryMapOutputs.size() -> 5, commitMemory -> 88155904, usedMemory ->110283090
+2016-12-09 19:41:04 INFO  LocalFetcher:144 - localfetcher#9 about to shuffle output of map attempt_local1940562010_0001_m_000000_0 decomp: 22067686 len: 22067690 to MEMORY
+2016-12-09 19:41:04 INFO  InMemoryMapOutput:100 - Read 22067686 bytes from map-output for attempt_local1940562010_0001_m_000000_0
+2016-12-09 19:41:04 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22067686, inMemoryMapOutputs.size() -> 6, commitMemory -> 110283090, usedMemory ->132350776
+2016-12-09 19:41:04 INFO  LocalFetcher:144 - localfetcher#9 about to shuffle output of map attempt_local1940562010_0001_m_000006_0 decomp: 18584580 len: 18584584 to MEMORY
+2016-12-09 19:41:04 INFO  InMemoryMapOutput:100 - Read 18584580 bytes from map-output for attempt_local1940562010_0001_m_000006_0
+2016-12-09 19:41:04 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18584580, inMemoryMapOutputs.size() -> 7, commitMemory -> 132350776, usedMemory ->150935356
+2016-12-09 19:41:04 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 19:41:04 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:41:04 INFO  MergeManagerImpl:687 - finalMerge called with 7 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 19:41:04 INFO  Merger:606 - Merging 7 sorted segments
+2016-12-09 19:41:04 INFO  Merger:705 - Down to the last merge-pass, with 7 segments left of total size: 150935305 bytes
+2016-12-09 19:41:05 INFO  MergeManagerImpl:754 - Merged 7 segments, 150935356 bytes to disk to satisfy reduce memory limit
+2016-12-09 19:41:05 INFO  MergeManagerImpl:784 - Merging 1 files, 150935348 bytes from disk
+2016-12-09 19:41:05 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 19:41:05 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 19:41:05 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 150935337 bytes
+2016-12-09 19:41:05 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:41:10 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:41:11 INFO  Job:1367 -  map 100% reduce 90%
+2016-12-09 19:49:37 INFO  Task:1038 - Task:attempt_local1940562010_0001_r_000008_0 is done. And is in the process of committing
+2016-12-09 19:49:37 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:49:37 INFO  Task:1199 - Task attempt_local1940562010_0001_r_000008_0 is allowed to commit now
+2016-12-09 19:49:37 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1940562010_0001_r_000008_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-train-output/_temporary/0/task_local1940562010_0001_r_000008
+2016-12-09 19:49:37 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:49:37 INFO  Task:1158 - Task 'attempt_local1940562010_0001_r_000008_0' done.
+2016-12-09 19:49:37 INFO  LocalJobRunner:325 - Finishing task: attempt_local1940562010_0001_r_000008_0
+2016-12-09 19:49:37 INFO  LocalJobRunner:302 - Starting task: attempt_local1940562010_0001_r_000009_0
+2016-12-09 19:49:37 INFO  FileOutputCommitter:108 - File Output Committer Algorithm version is 1
+2016-12-09 19:49:37 INFO  ProcfsBasedProcessTree:192 - ProcfsBasedProcessTree currently is supported only on Linux.
+2016-12-09 19:49:37 INFO  Task:612 -  Using ResourceCalculatorProcessTree : null
+2016-12-09 19:49:37 INFO  ReduceTask:362 - Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@5f1d3697
+2016-12-09 19:49:37 INFO  MergeManagerImpl:197 - MergerManager: memoryLimit=18707171328, maxSingleShuffleLimit=4676792832, mergeThreshold=12346733568, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2016-12-09 19:49:37 INFO  EventFetcher:61 - attempt_local1940562010_0001_r_000009_0 Thread started: EventFetcher for fetching Map Completion Events
+2016-12-09 19:49:37 INFO  LocalFetcher:144 - localfetcher#10 about to shuffle output of map attempt_local1940562010_0001_m_000004_0 decomp: 22076700 len: 22076704 to MEMORY
+2016-12-09 19:49:37 INFO  InMemoryMapOutput:100 - Read 22076700 bytes from map-output for attempt_local1940562010_0001_m_000004_0
+2016-12-09 19:49:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22076700, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->22076700
+2016-12-09 19:49:37 INFO  LocalFetcher:144 - localfetcher#10 about to shuffle output of map attempt_local1940562010_0001_m_000001_0 decomp: 22001325 len: 22001329 to MEMORY
+2016-12-09 19:49:37 INFO  InMemoryMapOutput:100 - Read 22001325 bytes from map-output for attempt_local1940562010_0001_m_000001_0
+2016-12-09 19:49:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22001325, inMemoryMapOutputs.size() -> 2, commitMemory -> 22076700, usedMemory ->44078025
+2016-12-09 19:49:37 INFO  LocalFetcher:144 - localfetcher#10 about to shuffle output of map attempt_local1940562010_0001_m_000002_0 decomp: 22060702 len: 22060706 to MEMORY
+2016-12-09 19:49:37 INFO  InMemoryMapOutput:100 - Read 22060702 bytes from map-output for attempt_local1940562010_0001_m_000002_0
+2016-12-09 19:49:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22060702, inMemoryMapOutputs.size() -> 3, commitMemory -> 44078025, usedMemory ->66138727
+2016-12-09 19:49:37 INFO  LocalFetcher:144 - localfetcher#10 about to shuffle output of map attempt_local1940562010_0001_m_000005_0 decomp: 22088885 len: 22088889 to MEMORY
+2016-12-09 19:49:37 INFO  InMemoryMapOutput:100 - Read 22088885 bytes from map-output for attempt_local1940562010_0001_m_000005_0
+2016-12-09 19:49:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22088885, inMemoryMapOutputs.size() -> 4, commitMemory -> 66138727, usedMemory ->88227612
+2016-12-09 19:49:37 INFO  LocalFetcher:144 - localfetcher#10 about to shuffle output of map attempt_local1940562010_0001_m_000003_0 decomp: 22097857 len: 22097861 to MEMORY
+2016-12-09 19:49:37 INFO  InMemoryMapOutput:100 - Read 22097857 bytes from map-output for attempt_local1940562010_0001_m_000003_0
+2016-12-09 19:49:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 22097857, inMemoryMapOutputs.size() -> 5, commitMemory -> 88227612, usedMemory ->110325469
+2016-12-09 19:49:37 INFO  LocalFetcher:144 - localfetcher#10 about to shuffle output of map attempt_local1940562010_0001_m_000000_0 decomp: 21984954 len: 21984958 to MEMORY
+2016-12-09 19:49:37 INFO  InMemoryMapOutput:100 - Read 21984954 bytes from map-output for attempt_local1940562010_0001_m_000000_0
+2016-12-09 19:49:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 21984954, inMemoryMapOutputs.size() -> 6, commitMemory -> 110325469, usedMemory ->132310423
+2016-12-09 19:49:37 INFO  LocalFetcher:144 - localfetcher#10 about to shuffle output of map attempt_local1940562010_0001_m_000006_0 decomp: 18579270 len: 18579274 to MEMORY
+2016-12-09 19:49:37 INFO  InMemoryMapOutput:100 - Read 18579270 bytes from map-output for attempt_local1940562010_0001_m_000006_0
+2016-12-09 19:49:37 INFO  MergeManagerImpl:315 - closeInMemoryFile -> map-output of size: 18579270, inMemoryMapOutputs.size() -> 7, commitMemory -> 132310423, usedMemory ->150889693
+2016-12-09 19:49:37 INFO  EventFetcher:76 - EventFetcher is interrupted.. Returning
+2016-12-09 19:49:37 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:49:37 INFO  MergeManagerImpl:687 - finalMerge called with 7 in-memory map-outputs and 0 on-disk map-outputs
+2016-12-09 19:49:37 INFO  Merger:606 - Merging 7 sorted segments
+2016-12-09 19:49:37 INFO  Merger:705 - Down to the last merge-pass, with 7 segments left of total size: 150889645 bytes
+2016-12-09 19:49:38 INFO  MergeManagerImpl:754 - Merged 7 segments, 150889693 bytes to disk to satisfy reduce memory limit
+2016-12-09 19:49:38 INFO  MergeManagerImpl:784 - Merging 1 files, 150889685 bytes from disk
+2016-12-09 19:49:38 INFO  MergeManagerImpl:799 - Merging 0 segments, 0 bytes from memory into reduce
+2016-12-09 19:49:38 INFO  Merger:606 - Merging 1 sorted segments
+2016-12-09 19:49:38 INFO  Merger:705 - Down to the last merge-pass, with 1 segments left of total size: 150889674 bytes
+2016-12-09 19:49:38 INFO  LocalJobRunner:591 - 7 / 7 copied.
+2016-12-09 19:49:46 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:49:47 INFO  Job:1367 -  map 100% reduce 100%
+2016-12-09 19:56:58 INFO  Task:1038 - Task:attempt_local1940562010_0001_r_000009_0 is done. And is in the process of committing
+2016-12-09 19:56:58 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:56:58 INFO  Task:1199 - Task attempt_local1940562010_0001_r_000009_0 is allowed to commit now
+2016-12-09 19:56:58 INFO  FileOutputCommitter:535 - Saved output of task 'attempt_local1940562010_0001_r_000009_0' to file:/Users/jain.san/Documents/workspace/BirdSightingPredictionProjectMR/log-train-output/_temporary/0/task_local1940562010_0001_r_000009
+2016-12-09 19:56:58 INFO  LocalJobRunner:591 - reduce > reduce
+2016-12-09 19:56:58 INFO  Task:1158 - Task 'attempt_local1940562010_0001_r_000009_0' done.
+2016-12-09 19:56:58 INFO  LocalJobRunner:325 - Finishing task: attempt_local1940562010_0001_r_000009_0
+2016-12-09 19:56:58 INFO  LocalJobRunner:456 - reduce task executor complete.
+2016-12-09 19:56:59 INFO  Job:1378 - Job job_local1940562010_0001 completed successfully
+2016-12-09 19:56:59 INFO  Job:1385 - Counters: 30
+	File System Counters
+		FILE: Number of bytes read=41085974856
+		FILE: Number of bytes written=50759030619
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=1276964
+		Map output records=8044890
+		Map output bytes=1485618698
+		Map output materialized bytes=1508802122
+		Input split bytes=1155
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=10
+		Reduce shuffle bytes=1508802122
+		Reduce input records=8044890
+		Reduce output records=10
+		Spilled Records=24134670
+		Shuffled Maps =70
+		Failed Shuffles=0
+		Merged Map outputs=70
+		GC time elapsed (ms)=25446
+		Total committed heap usage (bytes)=98771140608
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=231447340
+	File Output Format Counters 
+		Bytes Written=186971
